@@ -1,0 +1,24 @@
+{
+  "name": "radio",
+  "version": "1.0.0",
+  "description": "Programas de radio semanales favoritos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanifuturo/radio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/juanifuturo/radio/issues"
+  },
+  "homepage": "https://github.com/juanifuturo/radio#readme",
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  }
+}

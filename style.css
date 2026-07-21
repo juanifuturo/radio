@@ -1,0 +1,27 @@
+body{
+
+    font-family:Arial;
+
+    width:700px;
+
+    margin:auto;
+
+    background:white;
+
+    color:black;
+
+}
+
+.program{
+
+    border-bottom:1px solid #999;
+
+    padding:20px 0;
+
+}
+
+button{
+
+    padding:8px 16px;
+
+}
