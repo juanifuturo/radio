@@ -13,7 +13,10 @@ async function cargar() {
         bloque.className = "program";
 
         bloque.innerHTML = `
-    <img class="cover" src="${podcast.lastEpisode.image}" alt="">
+    <img class="cover"
+     src="${podcast.lastEpisode.image}"
+     alt="${podcast.name}"
+     onerror="this.style.display='none'">
 
     <div class="info">
         <h2>${podcast.name}</h2>
