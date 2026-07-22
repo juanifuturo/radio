@@ -26,5 +26,11 @@
       "image": "https://img.rtve.es/imagenes/raiz-de-5/1621618405371.jpg",
       "description": "Hoy estamos en modo \"Summer Edition\" y hablamos de la final España Argentina, con sus probabilidades y los planteamientos que un matema ́tico se puede hacer de este Mundial tan apasionante y que la FIFA ha optimizado en el concepto comercial. Más del 60% de fútbol con un solo partido extra a los finalistas del Mundial. Hablamos con Raquel Villacampa de su artículo en The Conversation y de la mirada y enseñanza estadística y lógica que nos puede dar el fútbol. ¡A por la segunda estrella! Seguimos la semana que viene, por inducción, n+1...\n\nEscuchar audio"
     }
+  },
+  {
+    "slot": 3,
+    "name": "Pepino",
+    "rss": "http://api.rtve.es/api/programas/27190/audios.rss",
+    
   }
 ]
