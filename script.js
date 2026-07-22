@@ -13,20 +13,11 @@ async function cargar() {
         bloque.className = "program";
 
         bloque.innerHTML = `
-    <img class="cover"
-     src="${podcast.lastEpisode.image}"
-     alt="${podcast.name}"
-     onerror="this.style.display='none'">
-
-    <div class="info">
-        <h2>${podcast.name.toUpperCase()}</h2>
-        <p>${podcast.lastEpisode.title}</p>
-    </div>
-`;
-
-        contenedor.appendChild(bloque);
-
-        bloque.style.cursor = "pointer";
+            <div class="info">
+                <h2>${podcast.name.toUpperCase()}</h2>
+                <p>${podcast.lastEpisode.title}</p>
+            </div>
+        `;
 
         bloque.addEventListener("click", () => {
 
@@ -40,6 +31,8 @@ async function cargar() {
             player.play();
 
         });
+
+        contenedor.appendChild(bloque);
 
     });
 
