@@ -73,11 +73,15 @@ audio {
 
     body {
 
-        width: auto;
+    width: auto;
 
-        margin: 20px;
+    margin: 0;
 
-    }
+    padding: 18px;
+
+    box-sizing: border-box;
+
+}
 
     h1 {
 
@@ -87,9 +91,11 @@ audio {
 
     .program {
 
-        padding: 22px;
+    padding: 24px;
 
-    }
+    margin-bottom: 16px;
+
+}
 
     .info h2 {
 
