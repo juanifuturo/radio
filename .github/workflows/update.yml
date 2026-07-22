@@ -35,11 +35,11 @@ jobs:
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
 
-          git add episodes.json
+          git add .
 
           if ! git diff --cached --quiet; then
             git commit -m "Actualización automática"
             git push
           else
-            echo "No hay cambios en episodes.json"
+            echo "No hay cambios"
           fi
