@@ -19,7 +19,7 @@ async function cargar() {
      onerror="this.style.display='none'">
 
     <div class="info">
-        <h2>${podcast.name}</h2>
+        <h2>${podcast.name.toUpperCase()}</h2>
         <p>${podcast.lastEpisode.title}</p>
     </div>
 `;
