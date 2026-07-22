@@ -13,9 +13,13 @@ async function cargar() {
         bloque.className = "program";
 
         bloque.innerHTML = `
-            <h2>▶ ${podcast.name}</h2>
-            <p>${podcast.lastEpisode.title}</p>
-        `;
+    <img class="cover" src="${podcast.lastEpisode.image}" alt="">
+
+    <div class="info">
+        <h2>${podcast.name}</h2>
+        <p>${podcast.lastEpisode.title}</p>
+    </div>
+`;
 
         contenedor.appendChild(bloque);
 
