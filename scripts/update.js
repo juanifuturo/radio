@@ -4,45 +4,59 @@ const fs = require("fs");
 const parser = new Parser();
 
 const podcasts = JSON.parse(
-    fs.readFileSync("podcasts.json")
+    fs.readFileSync("podcasts.json", "utf8")
 );
 
 async function update() {
 
     for (const podcast of podcasts) {
 
-        console.log("Leyendo:", podcast.name);
+        try {
 
-        const feed = await parser.parseURL(podcast.rss);
+            console.log("Leyendo:", podcast.name);
 
-        const latest = feed.items[0];
+            const feed = await parser.parseURL(podcast.rss);
 
-        podcast.lastEpisode = {
+            if (!feed.items || feed.items.length === 0) {
+                console.log("⚠ Sin episodios:", podcast.name);
+                continue;
+            }
 
-            title: latest.title,
+            const latest = feed.items[0];
 
-            date: latest.pubDate,
+            podcast.lastEpisode = {
 
-            audio: latest.enclosure?.url || "",
+                title: latest.title || "",
 
-            webpage: latest.link,
+                date: latest.pubDate || "",
 
-            image: feed.image?.url || "",
+                audio: latest.enclosure?.url || "",
 
-            description: latest.contentSnippet || ""
+                webpage: latest.link || "",
 
-        };
+                image: feed.image?.url || "",
+
+                description: latest.contentSnippet || ""
+
+            };
+
+            console.log("✓ Actualizado:", podcast.name);
+
+        } catch (error) {
+
+            console.log("✗ Error leyendo:", podcast.name);
+            console.log(error.message);
+
+        }
 
     }
 
     fs.writeFileSync(
-
         "podcasts.json",
-
         JSON.stringify(podcasts, null, 2)
-
     );
 
+    console.log("");
     console.log("Todo terminado.");
 
 }
