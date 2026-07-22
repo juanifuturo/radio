@@ -7,41 +7,39 @@ const podcasts = JSON.parse(
     fs.readFileSync("podcasts.json")
 );
 
-async function update(){
+async function update() {
 
-    let episodes=[];
+    for (const podcast of podcasts) {
 
-    for(const podcast of podcasts){
+        console.log("Leyendo:", podcast.name);
 
-        console.log("Leyendo:",podcast.title);
+        const feed = await parser.parseURL(podcast.rss);
 
-        const feed=await parser.parseURL(podcast.rss);
+        const latest = feed.items[0];
 
-        const latest=feed.items[0];
+        podcast.lastEpisode = {
 
-        episodes.push({
+            title: latest.title,
 
-            podcast:podcast.title,
+            date: latest.pubDate,
 
-            episode:latest.title,
+            audio: latest.enclosure?.url || "",
 
-            date:latest.pubDate,
+            webpage: latest.link,
 
-            audio:latest.enclosure?.url || "",
+            image: feed.image?.url || "",
 
-            webpage:latest.link,
+            description: latest.contentSnippet || ""
 
-            image:feed.image?.url || ""
-
-        });
+        };
 
     }
 
     fs.writeFileSync(
 
-        "episodes.json",
+        "podcasts.json",
 
-        JSON.stringify(episodes,null,2)
+        JSON.stringify(podcasts, null, 2)
 
     );
 
