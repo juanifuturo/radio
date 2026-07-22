@@ -1,14 +1,14 @@
 [
   {
     "slot": 1,
-    "title": "Sin Audiencia",
+    "name": "Sin Audiencia",
     "rss": "https://sinaudiencia.com/feed/podcast/",
     "color": "#F5F5F5",
     "lastEpisode": {}
   },
   {
     "slot": 2,
-    "title": "Raíz de 5",
+    "name": "Raíz de 5",
     "rss": "http://api.rtve.es/api/programas/107070/audios.rss",
     "color": "#F5F5F5",
     "lastEpisode": {}
