@@ -1,43 +1,45 @@
 name: Actualizar podcasts
 
 on:
-
   workflow_dispatch:
 
   schedule:
     - cron: '0 6 * * *'
 
 jobs:
-
   update:
-
     runs-on: ubuntu-latest
 
     permissions:
       contents: write
 
     steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
 
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-node@v4
+      - name: Instalar Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: 24
 
-      - run: npm install
+      - name: Instalar dependencias
+        run: npm ci
 
-      - run: node scripts/update.js
+      - name: Actualizar episodios
+        run: node scripts/update.js
 
-      - name: Commit cambios
-
+      - name: Commit y Push si hay cambios
         run: |
-
           git config user.name "GitHub Actions"
-
           git config user.email "actions@github.com"
 
           git add episodes.json
 
-          git diff --cached --quiet || git commit -m "Actualización automática"
-
-          git push
+          if ! git diff --cached --quiet; then
+            git commit -m "Actualización automática"
+            git push
+          else
+            echo "No hay cambios en episodes.json"
+          fi
