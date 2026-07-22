@@ -31,7 +31,14 @@
     "slot": 3,
     "name": "Pepino",
     "rss": "http://api.rtve.es/api/programas/27190/audios.rss",
-    "color": "#F5F5F5"
-    
+    "color": "#F5F5F5",
+    "lastEpisode": {
+      "title": "La Libélula - Los domingos también (Juan Berrio, editorial Salamandra Graphic) - 26/07/19",
+      "date": "Sun, 19 Jul 2026 15:00:13 GMT",
+      "audio": "https://ztnr.rtve.es/ztnr/17159332.mp3",
+      "webpage": "https://www.rtve.es/play/audios/la-libelula/libelula-domingos-tambien-juan-berrio-editorial-salamandra-graphic-26-07-19/17159332/",
+      "image": "https://img.rtve.es/imagenes/la-libelula/1623319833673.jpg",
+      "description": "Ah, el domingo… tiene fama de día inmóvil, pero depende mucho de quién lo mire. Puede ser resaca, misa, vermú, melancolía, sábanas revueltas o esa tarde en que uno decide no hacer absolutamente nada y acaba descubriendo que eso también es un planazo. Hoy #LaLiBéLuLaR3, animal totémico de esta #HermandadDeLectores, se echa a volar sobre esos pequeños acontecimientos que suceden mientras el mundo parece descansar. De ellos está llena la novela gráfica «Los domingos también», de Juan Berrio, que publica Salamandra Graphics. Una obra que “acuareliza” la cotidianeidad de una corrala coloreándola de amabilidad y romanticismo. Juan nos espera ya en el refugio para presentarnos su libro del que leeremos algunos fragmentos, a los que añadiremos algunos poemas de Eva Fernández Moral y Gioconda Belli. Textos y poemas dominicales que haremos llegar a vuestros oídos en las pujantes voces de Agustín Sánchez Antequera, Carola Alba, Anna Hidalgo, Rodrigo García, “R”, y Juan Suárez. Como banda sonora de #estahoradeevasión, #DjπTito pinchará canciones y composiciones de Los Amigos Invisibles, Frail Talk, Club 8, The Limp Twins pasados por la mezcladora de Quantic, La Bien Querida, Miss Q y Pink Martini.\n\nAparte de las músicas que ambientan los textos, estos son los temas que sonarán en este #VueloSinMotor:\n\nDomingo Echao - Los Amigos Invisibles - Arepa 3000 (A Venezuelan Journey into Space)\nSunday Dreamin' - Frail Talk - New Creation MythsMi tierra - Sara Veneros - Sara Veneros\nSunday afternoon - Club 8 – Nouvelle\nSunday driver (The Limp Twins) - Quantic - The Best of Quantic Disc 1\nDomingo escarlata - La Bien Querida – Brujería\nSunday blues - Miss Q - Introducing lovely Miss Q\nSunday table - Pink Martini - Splendor in the grass\n\n******\n\nRecuerda que tienes #podcast del programa y #ficciones sueltas en rtve.es/lalibelula. \n\nTambién hay #Audiolibros en #Litercast y #videocreaciones en torno a la #Literatura en Palabra Voyeur\n\nY los versos que viajan entre bits te esperan en el Metaverso de Radio3 extra. ¡Arrímate!\n\nEscuchar audio"
+    }
   }
 ]
