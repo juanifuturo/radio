@@ -1,6 +1,6 @@
 async function cargar() {
 
-    const respuesta = await fetch("episodes.json");
+    const respuesta = await fetch("podcasts.json");
 
     const podcasts = await respuesta.json();
 
@@ -12,27 +12,27 @@ async function cargar() {
 
         bloque.className = "program";
 
-bloque.innerHTML = `
-    <h2>▶ ${podcast.podcast}</h2>
-    <p>${podcast.episode}</p>
-`;
+        bloque.innerHTML = `
+            <h2>▶ ${podcast.name}</h2>
+            <p>${podcast.lastEpisode.title}</p>
+        `;
 
         contenedor.appendChild(bloque);
 
         bloque.style.cursor = "pointer";
 
-bloque.addEventListener("click", () => {
+        bloque.addEventListener("click", () => {
 
-    const player = document.getElementById("player");
+            const player = document.getElementById("player");
 
-    player.src = podcast.audio;
+            player.src = podcast.lastEpisode.audio;
 
-    document.getElementById("playing").textContent =
-        podcast.podcast + " — " + podcast.episode;
+            document.getElementById("playing").textContent =
+                podcast.name + " — " + podcast.lastEpisode.title;
 
-    player.play();
+            player.play();
 
-});
+        });
 
     });
 
