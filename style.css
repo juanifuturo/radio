@@ -67,3 +67,40 @@ audio {
     margin-top: 10px;
 
 }
+
+
+@media (max-width: 800px) {
+
+    body {
+
+        width: auto;
+
+        margin: 20px;
+
+    }
+
+    h1 {
+
+        font-size: 34px;
+
+    }
+
+    .program {
+
+        padding: 22px;
+
+    }
+
+    .info h2 {
+
+        font-size: 28px;
+
+    }
+
+    .info p {
+
+        font-size: 19px;
+
+    }
+
+}
