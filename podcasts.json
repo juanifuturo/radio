@@ -4,13 +4,27 @@
     "name": "Sin Audiencia",
     "rss": "https://sinaudiencia.com/feed/podcast/",
     "color": "#F5F5F5",
-    "lastEpisode": {}
+    "lastEpisode": {
+      "title": "Programa 1219: The Odyssey, Hungry, Evil Dead Burn y Sam Neill",
+      "date": "Sat, 18 Jul 2026 16:19:17 +0000",
+      "audio": "https://archive.org/download/20260715-sinaudiencia/20260715-sinaudiencia.mp3",
+      "webpage": "https://sinaudiencia.com/programa-1219/",
+      "image": "http://www.sinaudiencia.com/wp-content/uploads/powerpress/Logo-iTunes.jpg",
+      "description": "Final de la Edad de Bronce, en un lugar indeterminado del Mediterráneo Este, un rey griego volviendo de una guerra, se pierde y acaba en un remoto lugar, donde le acoge una familia que acaba de perder a su hijo mayor. En el granero de la casa, encuentra unos pergaminos de origen yemení, e intentando […]"
+    }
   },
   {
     "slot": 2,
     "name": "Raíz de 5",
     "rss": "http://api.rtve.es/api/programas/107070/audios.rss",
     "color": "#F5F5F5",
-    "lastEpisode": {}
+    "lastEpisode": {
+      "title": "RaÍz de 5 - Matemáticas del Mundial 2026 - 19/07/26",
+      "date": "Sun, 19 Jul 2026 13:00:44 GMT",
+      "audio": "https://ztnr.rtve.es/ztnr/17161128.mp3",
+      "webpage": "https://www.rtve.es/play/audios/raiz-de-5/raiz-5-matematicas-del-mundial-2026-19-07-26/17161128/",
+      "image": "https://img.rtve.es/imagenes/raiz-de-5/1621618405371.jpg",
+      "description": "Hoy estamos en modo \"Summer Edition\" y hablamos de la final España Argentina, con sus probabilidades y los planteamientos que un matema ́tico se puede hacer de este Mundial tan apasionante y que la FIFA ha optimizado en el concepto comercial. Más del 60% de fútbol con un solo partido extra a los finalistas del Mundial. Hablamos con Raquel Villacampa de su artículo en The Conversation y de la mirada y enseñanza estadística y lógica que nos puede dar el fútbol. ¡A por la segunda estrella! Seguimos la semana que viene, por inducción, n+1...\n\nEscuchar audio"
+    }
   }
 ]
