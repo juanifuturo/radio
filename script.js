@@ -1,6 +1,10 @@
 let podcasts = [];
-
 let indiceActual = 0;
+
+const player = document.getElementById("player");
+const playing = document.getElementById("playing");
+const duration = document.getElementById("duration");
+const contenedor = document.getElementById("podcasts");
 
 function reproducir(indice) {
 
@@ -15,14 +19,13 @@ function reproducir(indice) {
         return;
     }
 
-    const player = document.getElementById("player");
-
     player.src = podcast.lastEpisode.audio;
 
-    document.getElementById("playing").textContent =
+    playing.textContent =
         podcast.name + " — " + podcast.lastEpisode.title;
-    document.getElementById("duration").textContent =
-    "Duración: " + (podcast.lastEpisode.duration || "Desconocida");
+
+    duration.textContent =
+        "Duración: " + (podcast.lastEpisode.duration || "Desconocida");
 
     player.play();
 
@@ -34,41 +37,47 @@ async function cargar() {
 
     podcasts = await respuesta.json();
 
-    const contenedor = document.getElementById("podcasts");
+    // Orden alfabético
+    podcasts.sort((a, b) =>
+        a.name.localeCompare(b.name, "es", {
+            sensitivity: "base"
+        })
+    );
 
     contenedor.innerHTML = "";
 
-    podcasts.forEach((podcast, i) => {
+    podcasts.forEach((podcast, indice) => {
 
         const bloque = document.createElement("div");
 
         bloque.className = "program";
 
         const titulo = podcast.lastEpisode?.title || "Actualizando...";
-const duracion = podcast.lastEpisode?.duration || "";
-const fecha = podcast.lastEpisode?.date
-    ? new Date(podcast.lastEpisode.date).toLocaleDateString("es-ES", {
-          day: "numeric",
-          month: "short",
-          year: "numeric"
-      })
-    : "";
+        const duracion = podcast.lastEpisode?.duration || "";
 
-bloque.innerHTML = `
-    <div class="info">
-        <h2>${podcast.name.toUpperCase()}</h2>
-        <p>${titulo}</p>
+        const fecha = podcast.lastEpisode?.date
+            ? new Date(podcast.lastEpisode.date).toLocaleDateString("es-ES", {
+                  day: "numeric",
+                  month: "short",
+                  year: "numeric"
+              })
+            : "";
 
-        <div class="meta">
-            <span>${duracion}</span>
-            <span>${fecha}</span>
-        </div>
-    </div>
-`;
+        bloque.innerHTML = `
+            <div class="info">
+                <h2>${podcast.name.toUpperCase()}</h2>
+                <p>${titulo}</p>
+
+                <div class="meta">
+                    <span>${duracion}</span>
+                    <span>${fecha}</span>
+                </div>
+            </div>
+        `;
 
         bloque.addEventListener("click", () => {
 
-            reproducir(i);
+            reproducir(indice);
 
         });
 
@@ -78,15 +87,16 @@ bloque.innerHTML = `
 
     const guardado = localStorage.getItem("indiceActual");
 
-if (guardado !== null) {
+    if (guardado !== null && guardado < podcasts.length) {
 
-    reproducir(Number(guardado));
+        reproducir(Number(guardado));
 
-} else {
+    } else {
 
-    reproducir(0);
+        reproducir(0);
 
-}
+    }
+
 }
 
 player.addEventListener("ended", () => {
@@ -100,7 +110,6 @@ player.addEventListener("ended", () => {
     reproducir(siguiente);
 
 });
-
 
 document.getElementById("nextButton").addEventListener("click", () => {
 
