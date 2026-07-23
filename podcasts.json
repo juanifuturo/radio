@@ -46,46 +46,108 @@
     "name": "DEPRADADOS",
     "rss": "hhttps://www.ondacero.es/rss/podcast/mount/ATRESMEDIA_DEPRADADOS_P/fastly"
   },
-
-    {
+  {
     "slot": 5,
     "name": "LA CULTURETA",
-    "rss": "https://www.ondacero.es/rss/podcast/mount/ATRESMEDIA_LA_CULTURETA_P/fastly"
+    "rss": "https://www.ondacero.es/rss/podcast/mount/ATRESMEDIA_LA_CULTURETA_P/fastly",
+    "lastEpisode": {
+      "title": "La cultureta 18/07/2026",
+      "date": "Sat, 18 Jul 2026 01:31:03 +0200",
+      "audio": "https://triton-vod.ondacero.es/?programa=ATRESMEDIA_LA_CULTURETA_P&origen=/mp_audios4/2026/07/18/2098BA59-BFB7-47CF-8165-D8FAE0CAF5C7/2098BA59-BFB7-47CF-8165-D8FAE0CAF5C7.mp3&audioId=6a5ad29169529d20d7fc167f&dist=generic",
+      "webpage": "https://www.ondacero.es/podcast/programas/la-cultureta/cultureta-18072026_202607186a5ad29169529d20d7fc167f.html",
+      "image": "",
+      "description": "Escucha 'La Cultureta', de Onda Cero, el programa de cultura conducido por Rubén Amón en la madrugada del viernes al sábado."
+    }
   },
-    {
+  {
     "slot": 6,
     "name": "FALLO DE SISTEMA",
-    "rss": "http://www.rtve.es/api/programas/46690/audios.rss"
+    "rss": "http://www.rtve.es/api/programas/46690/audios.rss",
+    "lastEpisode": {
+      "title": "Fallo de sistema - 884: El Legado Sigue Vol.2 - 19/07/26",
+      "date": "Sun, 19 Jul 2026 11:00:00 GMT",
+      "audio": "https://ztnr.rtve.es/ztnr/17161347.mp3",
+      "webpage": "https://www.rtve.es/play/audios/fallo-de-sistema/884-legado-sigue-vol2-19-07-26/17161347/",
+      "image": "https://img.rtve.es/imagenes/fallo-de-sistema/1623319619987.jpg",
+      "description": "Cerramos el círculo, esta vez. sí que sí, con Don Víctor. El segundo volumen del especial de legado de Fallo de Sistema sigue explorando el espíritu indestructible de Prince, Michael Jackson y Stevie Wonder pero con la mirada puesta en lo que podría ser nuestro propio legado: canciones y sonoridades que, en el caso de las Fresh Editions y los gamberreos con el Planeta Segovia, han sido muy singulares. Por eso le hemos pedido a Don Víctor que escoja su Top 5 legado de Fallo y demostrar que ni siquiera con un puñado de canciones podríamos resumir un legado tan singular una manera de entender la cultura popular que además ha tenido como cómplices a una comunidad de oyentes que lo merece todo. Esperemos seguirte teniendo al otro lado. ¡¡Feliz verano!!\n\nEscuchar audio"
+    }
   },
-    {
+  {
     "slot": 7,
     "name": "NO NECESITABA SABER ESTO",
-    "rss": "https://api.rtve.es/api/programas/134678/audios.rss"
+    "rss": "https://api.rtve.es/api/programas/134678/audios.rss",
+    "lastEpisode": {
+      "title": "No necesitaba saber esto - Alphafold - 21/07/26",
+      "date": "Tue, 21 Jul 2026 08:17:03 GMT",
+      "audio": "https://ztnr.rtve.es/ztnr/17162661.mp3",
+      "webpage": "https://www.rtve.es/play/audios/no-necesitaba-saber-esto/no-necesitaba-saber-esto-alphafold/17162661/",
+      "image": "https://img.rtve.es/imagenes/no-necesitaba-saber-esto/1624268363946.jpg",
+      "description": "Las proteínas son esenciales en los procesos biológicos, pero tienen una forma extraordinariamente compleja. en 2020 AlphaFold consiguió, gracias a la IA, predecir la estructura de proteínas en mucho menos tiempo que los métodos tradicionales. \n\nEscuchar audio"
+    }
   },
-    {
+  {
     "slot": 8,
     "name": "LOS RETRONAUTAS",
-    "rss": "https://feeds.ivoox.com/feed_fg_f157575_filtro_1.xml"
+    "rss": "https://feeds.ivoox.com/feed_fg_f157575_filtro_1.xml",
+    "lastEpisode": {
+      "title": "Micronautas 2.156 - Her. - Episodio exclusivo para mecenas",
+      "date": "Mon, 20 Jul 2026 09:00:00 +0200",
+      "audio": "https://www.ivoox.com/micronautas-2-156-her_mf_177543388_feed_1.mp3",
+      "webpage": "https://www.ivoox.com/micronautas-2-156-her-audios-mp3_rf_177543388_1.html",
+      "image": "https://static-2.ivoox.com/canales/9/3/e/7/93e7cf2dbcef2f3bf91e0b37c456ae71_XXL.jpg",
+      "description": "Agradece a este podcast tantas horas de entretenimiento y disfruta de episodios exclusivos como éste. ¡Apóyale en iVoox! Como complemento a nuestro programa dedicado a la inteligencia artificial y su representación en la ficción audiovisual, revistamos la película \"Her\" (2013) del director Spike Jonze, una de las visiones más originales sobre la cuestión que nos han ofrecido el cine.\r\n\r\nLas músicas pertenecen al artista \"Hello Meteor\".\r\n\r\nSíguenos y contacta con nosotros a través de Facebook (www.facebook.com/retronautas), en Twitter ( @losretronautas), en BlueSky (@losretronautas.bsky.social) o escríbenos a nuestro correo electrónico: losretronautas@gmx.com\r\n\r\nTambién puedes unirte a nuestro grupo de Telegram. Contacta con nosotros para enviarte el enlace de invitación.\r\n\r\nSi te ha gustado este programa y quieres invitarnos a un café, puedes hacerlo a través de: https://ko-fi.com/retronautas\r\nY si estás comprometido con la C-F viejuna puedes unirte a la infantería móvil retronaútica en: https://www.patreon.com/losretronautas \r\no aquí mismo, en Ivoox. \r\nComo patrocinador, serás informado de nuestros planes de vuelo, y tendrás acceso exclusivo a estos \"Micronautas\".\r\n\r\nSaludos desde los días del futuro pasado.\nEscucha este episodio completo y accede a todo el contenido exclusivo de Los Retronautas. Descubre antes que nadie los nuevos episodios, y participa en la comunidad exclusiva de oyentes en https://go.ivoox.com/sq/57575"
+    }
   },
-    {
+  {
     "slot": 9,
     "name": "DESTINO ARRAKIS",
-    "rss": "https://feeds.ivoox.com/feed_fg_f157575_filtro_1.xml"
+    "rss": "https://feeds.ivoox.com/feed_fg_f157575_filtro_1.xml",
+    "lastEpisode": {
+      "title": "Micronautas 2.156 - Her. - Episodio exclusivo para mecenas",
+      "date": "Mon, 20 Jul 2026 09:00:00 +0200",
+      "audio": "https://www.ivoox.com/micronautas-2-156-her_mf_177543388_feed_1.mp3",
+      "webpage": "https://www.ivoox.com/micronautas-2-156-her-audios-mp3_rf_177543388_1.html",
+      "image": "https://static-2.ivoox.com/canales/9/3/e/7/93e7cf2dbcef2f3bf91e0b37c456ae71_XXL.jpg",
+      "description": "Agradece a este podcast tantas horas de entretenimiento y disfruta de episodios exclusivos como éste. ¡Apóyale en iVoox! Como complemento a nuestro programa dedicado a la inteligencia artificial y su representación en la ficción audiovisual, revistamos la película \"Her\" (2013) del director Spike Jonze, una de las visiones más originales sobre la cuestión que nos han ofrecido el cine.\r\n\r\nLas músicas pertenecen al artista \"Hello Meteor\".\r\n\r\nSíguenos y contacta con nosotros a través de Facebook (www.facebook.com/retronautas), en Twitter ( @losretronautas), en BlueSky (@losretronautas.bsky.social) o escríbenos a nuestro correo electrónico: losretronautas@gmx.com\r\n\r\nTambién puedes unirte a nuestro grupo de Telegram. Contacta con nosotros para enviarte el enlace de invitación.\r\n\r\nSi te ha gustado este programa y quieres invitarnos a un café, puedes hacerlo a través de: https://ko-fi.com/retronautas\r\nY si estás comprometido con la C-F viejuna puedes unirte a la infantería móvil retronaútica en: https://www.patreon.com/losretronautas \r\no aquí mismo, en Ivoox. \r\nComo patrocinador, serás informado de nuestros planes de vuelo, y tendrás acceso exclusivo a estos \"Micronautas\".\r\n\r\nSaludos desde los días del futuro pasado.\nEscucha este episodio completo y accede a todo el contenido exclusivo de Los Retronautas. Descubre antes que nadie los nuevos episodios, y participa en la comunidad exclusiva de oyentes en https://go.ivoox.com/sq/57575"
+    }
   },
-    {
+  {
     "slot": 10,
     "name": "TERRITORIO 9",
-    "rss": "https://feeds.feedburner.com/DestinoArrakis"
+    "rss": "https://feeds.feedburner.com/DestinoArrakis",
+    "lastEpisode": {
+      "title": "[DA] Destino Arrakis 13x23 Dioses, Superhéroes y Hombres",
+      "date": "Tue, 14 Jul 2026 12:27:48 +0200",
+      "audio": "https://www.ivoox.com/da-destino-arrakis-13x23-dioses-superheroes-hombres_mf_177264402_feed_1.mp3?d=1784024963",
+      "webpage": "https://www.ivoox.com/da-destino-arrakis-13x23-dioses-superheroes-hombres-audios-mp3_rf_177264402_1.html",
+      "image": "https://static-2.ivoox.com/canales/5/1/a/c/51ac2bdf75b0e4a9736ebeb5ea641158_XXL.jpg",
+      "description": "Aprovechando el inminene estreno de La Odisea, hoy nos reunimos para hablar de mitos legendarios y epopeyas atemporales, así como de la forma en la que la Humanidad ha creado estas leyendas a lo largo de los milenios. Para ello, hablamos con dos escritores amigos y comentamos sus obras; Javier Negrete, con Odisea, una revisitación del mito clásico y con Antonio Runa, que nos trae una obra de los nuevos héroes legendarios, los superhéroes, con SuprAdalid Escucha el episodio completo en la app de iVoox, o descubre todo el catálogo de iVoox Originals"
+    }
   },
-    {
+  {
     "slot": 11,
     "name": "LA ESTACIÓN AZUL",
-    "rss": "http://www.rtve.es/api/programas/139010/audios.rss"
+    "rss": "http://www.rtve.es/api/programas/139010/audios.rss",
+    "lastEpisode": {
+      "title": "Territorio 9 - Arte callejero: Museo Inacabado de Arte Urbano en Fanzara y Nadie - 22/07/26",
+      "date": "Wed, 22 Jul 2026 13:00:00 GMT",
+      "audio": "https://ztnr.rtve.es/ztnr/17165791.mp3",
+      "webpage": "https://www.rtve.es/play/audios/territorio-9/arte-callejero-museo-inacabado-arte-urbano-fanzara-nadie-22-07-26/17165791/",
+      "image": "https://img.rtve.es/imagenes/territorio-9/01756458872388.jpg",
+      "description": "En el programa 568, viajamos hasta Fanzara, en la provincia de Castellón, donde se encuentra el MIAU (Museo Inacabado de Arte Urbano). Hablamos con Javier López López, gestor del proyecto y miembro de la asociación MIAU. Esta iniciativa lleva las ilustraciones y la pintura a los espacios públicos y sirve como punto de encuentro para vecinos y visitantes de la localidad. Nadie, en su sección sobre arte callejero, trata esta semana sobre el festival O Marisquiño, Pam the Bird o sobre las gafas de Meta.\n\nEscuchar audio"
+    }
   },
-    {
+  {
     "slot": 12,
     "name": "EL OJO CRÍTICO",
-    "rss": "http://www.rtve.es/api/programas/1957/audios.rss"
+    "rss": "http://www.rtve.es/api/programas/1957/audios.rss",
+    "lastEpisode": {
+      "title": "El Ojo Crítico - Libros de verano: ¿leemos mejor en vacaciones?",
+      "date": "Wed, 22 Jul 2026 16:16:21 GMT",
+      "audio": "https://ztnr.rtve.es/ztnr/17165979.mp3",
+      "webpage": "https://www.rtve.es/play/audios/el-ojo-critico/libros-verano-leemos-mejor-vacaciones/17165979/",
+      "image": "https://img.rtve.es/imagenes/el-ojo-critico/01756477713478.jpg",
+      "description": "¿Las vacaciones cambian nuestra forma de leer? En El Ojo Crítico debatimos sobre los hábitos de lectura estivales junto a Pablo Cerezo, librero de Pérgamo, la librería más antigua de Madrid; Berta Pagès, editora de Reservoir Books; y Susana Santaolalla, periodista y directora de Libros de Arena de Radio 5. Analizamos cómo cambia nuestra relación con los libros durante las vacaciones y qué buscamos cuando leemos para descansar.\nTambién viajamos hasta Instant City, la ciudad hinchable que acogió Ibiza en la cala de Sant Miquel en 1971. Un experimento de arquitectura efímera impulsado por los arquitectos José Miguel de Prada Poole y Carlos Ferrater, que reunió a más de mil estudiantes de diseño y que Pedro Torrijos recupera para explicar cómo una ciudad temporal se convirtió en uno de los proyectos más singulares de la arquitectura española.\nAdemás, despedimos a dos figuras de la música. Recordamos a Plas Johnson, el saxofonista que inmortalizó el célebre tema de La Pantera Rosa, fallecido a los 94 años, y a Joan Roca, bajista del grupo mallorquín Antònia Font, que ha muerto a los 54 años tras una larga enfermedad.\n\nEscuchar audio"
+    }
   }
-  
 ]
