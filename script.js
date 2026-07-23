@@ -12,14 +12,21 @@ async function cargar() {
 
         bloque.className = "program";
 
+        const titulo = podcast.lastEpisode?.title || "Actualizando...";
+
         bloque.innerHTML = `
             <div class="info">
                 <h2>${podcast.name.toUpperCase()}</h2>
-                <p>${podcast.lastEpisode.title}</p>
+                <p>${titulo}</p>
             </div>
         `;
 
         bloque.addEventListener("click", () => {
+
+            if (!podcast.lastEpisode) {
+                alert("Este podcast todavía no está disponible.");
+                return;
+            }
 
             const player = document.getElementById("player");
 
