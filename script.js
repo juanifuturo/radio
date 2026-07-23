@@ -1,5 +1,6 @@
 let podcasts = [];
 let indiceActual = 0;
+let restaurarPosicion = true;
 
 const player = document.getElementById("player");
 const playing = document.getElementById("playing");
@@ -26,6 +27,25 @@ function reproducir(indice) {
 
     duration.textContent =
         "Duración: " + (podcast.lastEpisode.duration || "Desconocida");
+
+    if (restaurarPosicion &&
+        indice === Number(localStorage.getItem("indiceActual"))) {
+
+        const tiempoGuardado = Number(localStorage.getItem("tiempoActual"));
+
+        player.addEventListener("loadedmetadata", function restaurar() {
+
+            if (!isNaN(tiempoGuardado)) {
+                player.currentTime = tiempoGuardado;
+            }
+
+            player.removeEventListener("loadedmetadata", restaurar);
+
+        });
+
+        restaurarPosicion = false;
+
+    }
 
     player.play();
 
@@ -77,6 +97,7 @@ async function cargar() {
 
         bloque.addEventListener("click", () => {
 
+            restaurarPosicion = false;
             reproducir(indice);
 
         });
@@ -93,6 +114,7 @@ async function cargar() {
 
     } else {
 
+        restaurarPosicion = false;
         reproducir(0);
 
     }
@@ -107,6 +129,7 @@ player.addEventListener("ended", () => {
         siguiente = 0;
     }
 
+    restaurarPosicion = false;
     reproducir(siguiente);
 
 });
@@ -119,6 +142,7 @@ document.getElementById("nextButton").addEventListener("click", () => {
         siguiente = 0;
     }
 
+    restaurarPosicion = false;
     reproducir(siguiente);
 
 });
@@ -131,8 +155,20 @@ document.getElementById("prevButton").addEventListener("click", () => {
         anterior = podcasts.length - 1;
     }
 
+    restaurarPosicion = false;
     reproducir(anterior);
 
 });
+
+// Guarda la posición de reproducción cada 5 segundos
+setInterval(() => {
+
+    if (!player.paused) {
+
+        localStorage.setItem("tiempoActual", player.currentTime);
+
+    }
+
+}, 5000);
 
 cargar();
