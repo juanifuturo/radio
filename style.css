@@ -18,6 +18,16 @@ h1 {
 
 }
 
+.controls{
+
+    display:flex;
+
+    gap:10px;
+
+    margin-bottom:30px;
+
+}
+
 .program {
 
     border: 1px solid #d8d8d8;
