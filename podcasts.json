@@ -40,5 +40,52 @@
       "image": "https://img.rtve.es/imagenes/la-libelula/1623319833673.jpg",
       "description": "Ah, el domingo… tiene fama de día inmóvil, pero depende mucho de quién lo mire. Puede ser resaca, misa, vermú, melancolía, sábanas revueltas o esa tarde en que uno decide no hacer absolutamente nada y acaba descubriendo que eso también es un planazo. Hoy #LaLiBéLuLaR3, animal totémico de esta #HermandadDeLectores, se echa a volar sobre esos pequeños acontecimientos que suceden mientras el mundo parece descansar. De ellos está llena la novela gráfica «Los domingos también», de Juan Berrio, que publica Salamandra Graphics. Una obra que “acuareliza” la cotidianeidad de una corrala coloreándola de amabilidad y romanticismo. Juan nos espera ya en el refugio para presentarnos su libro del que leeremos algunos fragmentos, a los que añadiremos algunos poemas de Eva Fernández Moral y Gioconda Belli. Textos y poemas dominicales que haremos llegar a vuestros oídos en las pujantes voces de Agustín Sánchez Antequera, Carola Alba, Anna Hidalgo, Rodrigo García, “R”, y Juan Suárez. Como banda sonora de #estahoradeevasión, #DjπTito pinchará canciones y composiciones de Los Amigos Invisibles, Frail Talk, Club 8, The Limp Twins pasados por la mezcladora de Quantic, La Bien Querida, Miss Q y Pink Martini.\n\nAparte de las músicas que ambientan los textos, estos son los temas que sonarán en este #VueloSinMotor:\n\nDomingo Echao - Los Amigos Invisibles - Arepa 3000 (A Venezuelan Journey into Space)\nSunday Dreamin' - Frail Talk - New Creation MythsMi tierra - Sara Veneros - Sara Veneros\nSunday afternoon - Club 8 – Nouvelle\nSunday driver (The Limp Twins) - Quantic - The Best of Quantic Disc 1\nDomingo escarlata - La Bien Querida – Brujería\nSunday blues - Miss Q - Introducing lovely Miss Q\nSunday table - Pink Martini - Splendor in the grass\n\n******\n\nRecuerda que tienes #podcast del programa y #ficciones sueltas en rtve.es/lalibelula. \n\nTambién hay #Audiolibros en #Litercast y #videocreaciones en torno a la #Literatura en Palabra Voyeur\n\nY los versos que viajan entre bits te esperan en el Metaverso de Radio3 extra. ¡Arrímate!\n\nEscuchar audio"
     }
+  },
+  {
+    "slot": 4,
+    "name": "DEPRADADOS",
+    "rss": "hhttps://www.ondacero.es/rss/podcast/mount/ATRESMEDIA_DEPRADADOS_P/fastly"
+  },
+
+    {
+    "slot": 5,
+    "name": "LA CULTURETA",
+    "rss": "https://www.ondacero.es/rss/podcast/mount/ATRESMEDIA_LA_CULTURETA_P/fastly"
+  },
+    {
+    "slot": 6,
+    "name": "FALLO DE SISTEMA",
+    "rss": "http://www.rtve.es/api/programas/46690/audios.rss"
+  },
+    {
+    "slot": 7,
+    "name": "NO NECESITABA SABER ESTO",
+    "rss": "https://api.rtve.es/api/programas/134678/audios.rss"
+  },
+    {
+    "slot": 8,
+    "name": "LOS RETRONAUTAS",
+    "rss": "https://feeds.ivoox.com/feed_fg_f157575_filtro_1.xml"
+  },
+    {
+    "slot": 9,
+    "name": "DESTINO ARRAKIS",
+    "rss": "https://feeds.ivoox.com/feed_fg_f157575_filtro_1.xml"
+  },
+    {
+    "slot": 10,
+    "name": "TERRITORIO 9",
+    "rss": "https://feeds.feedburner.com/DestinoArrakis"
+  },
+    {
+    "slot": 11,
+    "name": "LA ESTACIÓN AZUL",
+    "rss": "http://www.rtve.es/api/programas/139010/audios.rss"
+  },
+    {
+    "slot": 12,
+    "name": "EL OJO CRÍTICO",
+    "rss": "http://www.rtve.es/api/programas/1957/audios.rss"
   }
+  
 ]
