@@ -157,5 +157,12 @@
       "image": "https://img.rtve.es/imagenes/el-ojo-critico/01756477713478.jpg",
       "description": "¿Las vacaciones cambian nuestra forma de leer? En El Ojo Crítico debatimos sobre los hábitos de lectura estivales junto a Pablo Cerezo, librero de Pérgamo, la librería más antigua de Madrid; Berta Pagès, editora de Reservoir Books; y Susana Santaolalla, periodista y directora de Libros de Arena de Radio 5. Analizamos cómo cambia nuestra relación con los libros durante las vacaciones y qué buscamos cuando leemos para descansar.\nTambién viajamos hasta Instant City, la ciudad hinchable que acogió Ibiza en la cala de Sant Miquel en 1971. Un experimento de arquitectura efímera impulsado por los arquitectos José Miguel de Prada Poole y Carlos Ferrater, que reunió a más de mil estudiantes de diseño y que Pedro Torrijos recupera para explicar cómo una ciudad temporal se convirtió en uno de los proyectos más singulares de la arquitectura española.\nAdemás, despedimos a dos figuras de la música. Recordamos a Plas Johnson, el saxofonista que inmortalizó el célebre tema de La Pantera Rosa, fallecido a los 94 años, y a Joan Roca, bajista del grupo mallorquín Antònia Font, que ha muerto a los 54 años tras una larga enfermedad.\n\nEscuchar audio"
     }
-  }
+  },
+
+   {
+    "slot": 13,
+    "name": "SCANNERS",
+    "rss": "https://feeds.ivoox.com/feed_fg_f119520_filtro_1.xml"
+    }
+  
 ]
