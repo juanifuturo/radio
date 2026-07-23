@@ -44,7 +44,7 @@
   {
     "slot": 4,
     "name": "DEPRADADOS",
-    "rss": "hhttps://www.ondacero.es/rss/podcast/mount/ATRESMEDIA_DEPRADADOS_P/fastly"
+    "rss": "https://www.ondacero.es/rss/podcast/mount/ATRESMEDIA_DEPRADADOS_P/fastly"
   },
   {
     "slot": 5,
@@ -101,7 +101,7 @@
   {
     "slot": 9,
     "name": "DESTINO ARRAKIS",
-    "rss": "https://feeds.ivoox.com/feed_fg_f157575_filtro_1.xml",
+    "rss": "https://feeds.feedburner.com/DestinoArrakis",
     "lastEpisode": {
       "title": "Micronautas 2.156 - Her. - Episodio exclusivo para mecenas",
       "date": "Mon, 20 Jul 2026 09:00:00 +0200",
@@ -114,7 +114,7 @@
   {
     "slot": 10,
     "name": "TERRITORIO 9",
-    "rss": "https://feeds.feedburner.com/DestinoArrakis",
+    "rss": "http://www.rtve.es/api/programas/139010/audios.rss",
     "lastEpisode": {
       "title": "[DA] Destino Arrakis 13x23 Dioses, Superhéroes y Hombres",
       "date": "Tue, 14 Jul 2026 12:27:48 +0200",
