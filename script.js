@@ -1,12 +1,40 @@
+let podcasts = [];
+
+let indiceActual = 0;
+
+function reproducir(indice) {
+
+    indiceActual = indice;
+
+    const podcast = podcasts[indice];
+
+    if (!podcast.lastEpisode) {
+        alert("Este podcast todavía no está disponible.");
+        return;
+    }
+
+    const player = document.getElementById("player");
+
+    player.src = podcast.lastEpisode.audio;
+
+    document.getElementById("playing").textContent =
+        podcast.name + " — " + podcast.lastEpisode.title;
+
+    player.play();
+
+}
+
 async function cargar() {
 
     const respuesta = await fetch("podcasts.json");
 
-    const podcasts = await respuesta.json();
+    podcasts = await respuesta.json();
 
     const contenedor = document.getElementById("podcasts");
 
-    podcasts.forEach(podcast => {
+    contenedor.innerHTML = "";
+
+    podcasts.forEach((podcast, i) => {
 
         const bloque = document.createElement("div");
 
@@ -23,19 +51,7 @@ async function cargar() {
 
         bloque.addEventListener("click", () => {
 
-            if (!podcast.lastEpisode) {
-                alert("Este podcast todavía no está disponible.");
-                return;
-            }
-
-            const player = document.getElementById("player");
-
-            player.src = podcast.lastEpisode.audio;
-
-            document.getElementById("playing").textContent =
-                podcast.name + " — " + podcast.lastEpisode.title;
-
-            player.play();
+            reproducir(i);
 
         });
 
