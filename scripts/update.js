@@ -26,19 +26,21 @@ async function update() {
 
             podcast.lastEpisode = {
 
-                title: latest.title || "",
+    title: latest.title,
 
-                date: latest.pubDate || "",
+    date: latest.pubDate,
 
-                audio: latest.enclosure?.url || "",
+    audio: latest.enclosure?.url || "",
 
-                webpage: latest.link || "",
+    webpage: latest.link,
 
-                image: feed.image?.url || "",
+    image: feed.image?.url || "",
 
-                description: latest.contentSnippet || ""
+    description: latest.contentSnippet || "",
 
-            };
+    duration: latest.itunes?.duration || ""
+
+};
 
             console.log("✓ Actualizado:", podcast.name);
 
