@@ -61,6 +61,17 @@ async function cargar() {
 
     });
 
+    const guardado = localStorage.getItem("indiceActual");
+
+if (guardado !== null) {
+
+    reproducir(Number(guardado));
+
+} else {
+
+    reproducir(0);
+
+}
 }
 
 document.getElementById("nextButton").addEventListener("click", () => {
