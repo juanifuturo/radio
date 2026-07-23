@@ -33,7 +33,7 @@ function reproducir(indice) {
     if (restaurarPosicion &&
         indice === Number(localStorage.getItem("indiceActual"))) {
 
-        const tiempoGuardado = Number(localStorage.getItem("tiempoActual"));
+        const tiempoGuardado = Number(localStorage.getItem("posicionPodcast"));
 
         player.addEventListener("loadedmetadata", function restaurar() {
 
@@ -166,7 +166,7 @@ function guardarPosicion() {
 
     if (!player.src) return;
 
-    localStorage.setItem("tiempoActual", player.currentTime);
+    localStorage.setItem("posicionPodcast", player.currentTime);
 
 }
 
