@@ -43,13 +43,26 @@ async function cargar() {
         bloque.className = "program";
 
         const titulo = podcast.lastEpisode?.title || "Actualizando...";
+const duracion = podcast.lastEpisode?.duration || "";
+const fecha = podcast.lastEpisode?.date
+    ? new Date(podcast.lastEpisode.date).toLocaleDateString("es-ES", {
+          day: "numeric",
+          month: "short",
+          year: "numeric"
+      })
+    : "";
 
-        bloque.innerHTML = `
-            <div class="info">
-                <h2>${podcast.name.toUpperCase()}</h2>
-                <p>${titulo}</p>
-            </div>
-        `;
+bloque.innerHTML = `
+    <div class="info">
+        <h2>${podcast.name.toUpperCase()}</h2>
+        <p>${titulo}</p>
+
+        <div class="meta">
+            <span>⏱ ${duracion}</span>
+            <span>📅 ${fecha}</span>
+        </div>
+    </div>
+`;
 
         bloque.addEventListener("click", () => {
 
