@@ -44,7 +44,15 @@
   {
     "slot": 4,
     "name": "DEPRADADOS",
-    "rss": "https://www.ondacero.es/rss/podcast/mount/ATRESMEDIA_DEPRADADOS_P/fastly"
+    "rss": "https://www.ondacero.es/rss/podcast/mount/ATRESMEDIA_DEPRADADOS_P/fastly",
+    "lastEpisode": {
+      "title": "Depradados 19/7/2026",
+      "date": "Sun, 19 Jul 2026 09:49:33 +0200",
+      "audio": "https://dpvclip.ondacero.es/mp_audios4//2026/07/19/5F35A099-F0E7-4D4E-8B2C-720399AD0BD7/5F35A099-F0E7-4D4E-8B2C-720399AD0BD7.mp3",
+      "webpage": "https://www.ondacero.es/podcast/programas/julia-en-la-onda/depradados/depradados-1972026_202607196a5c845069529d20d7fc1c35.html",
+      "image": "",
+      "description": "Juan Manuel de Prada ofrece su mirada 'depradada' y retrata a artistas e intelectuales. Historias de vida y obra de los grandes nombres de todas las Artes."
+    }
   },
   {
     "slot": 5,
