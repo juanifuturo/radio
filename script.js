@@ -74,6 +74,19 @@ if (guardado !== null) {
 }
 }
 
+player.addEventListener("ended", () => {
+
+    let siguiente = indiceActual + 1;
+
+    if (siguiente >= podcasts.length) {
+        siguiente = 0;
+    }
+
+    reproducir(siguiente);
+
+});
+
+
 document.getElementById("nextButton").addEventListener("click", () => {
 
     let siguiente = indiceActual + 1;
