@@ -60,8 +60,8 @@ bloque.innerHTML = `
         <p>${titulo}</p>
 
         <div class="meta">
-            <span>⏱ ${duracion}</span>
-            <span>📅 ${fecha}</span>
+            <span>${duracion}</span>
+            <span>${fecha}</span>
         </div>
     </div>
 `;
