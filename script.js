@@ -21,6 +21,8 @@ function reproducir(indice) {
 
     document.getElementById("playing").textContent =
         podcast.name + " — " + podcast.lastEpisode.title;
+    document.getElementById("duration").textContent =
+    "Duración: " + (podcast.lastEpisode.duration || "Desconocida");
 
     player.play();
 
