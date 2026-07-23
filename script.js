@@ -6,6 +6,8 @@ function reproducir(indice) {
 
     indiceActual = indice;
 
+    localStorage.setItem("indiceActual", indice);
+
     const podcast = podcasts[indice];
 
     if (!podcast.lastEpisode) {
