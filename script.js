@@ -9,6 +9,8 @@ const contenedor = document.getElementById("podcasts");
 
 function reproducir(indice) {
 
+    guardarPosicion();
+
     indiceActual = indice;
 
     localStorage.setItem("indiceActual", indice);
