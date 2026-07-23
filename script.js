@@ -160,15 +160,21 @@ document.getElementById("prevButton").addEventListener("click", () => {
 
 });
 
-// Guarda la posición de reproducción cada 5 segundos
-setInterval(() => {
+function guardarPosicion() {
 
-    if (!player.paused) {
+    if (!player.src) return;
 
-        localStorage.setItem("tiempoActual", player.currentTime);
+    localStorage.setItem("tiempoActual", player.currentTime);
 
-    }
+}
 
-}, 5000);
+// Al pausar
+player.addEventListener("pause", guardarPosicion);
+
+// Al terminar un episodio
+player.addEventListener("ended", guardarPosicion);
+
+// Antes de cerrar o recargar la página
+window.addEventListener("beforeunload", guardarPosicion);
 
 cargar();
