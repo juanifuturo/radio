@@ -61,4 +61,28 @@ async function cargar() {
 
 }
 
+document.getElementById("nextButton").addEventListener("click", () => {
+
+    let siguiente = indiceActual + 1;
+
+    if (siguiente >= podcasts.length) {
+        siguiente = 0;
+    }
+
+    reproducir(siguiente);
+
+});
+
+document.getElementById("prevButton").addEventListener("click", () => {
+
+    let anterior = indiceActual - 1;
+
+    if (anterior < 0) {
+        anterior = podcasts.length - 1;
+    }
+
+    reproducir(anterior);
+
+});
+
 cargar();
