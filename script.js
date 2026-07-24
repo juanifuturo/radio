@@ -13,13 +13,27 @@ const contenedor = document.getElementById("podcasts");
 // Utilidades
 //--------------------------------------------------
 
-function mezclarArray(array) {
+function crearRandom(seed) {
+
+    return function () {
+
+        seed = (seed * 1664525 + 1013904223) % 4294967296;
+
+        return seed / 4294967296;
+
+    };
+
+}
+
+function mezclarArray(array, seed) {
+
+    const random = crearRandom(seed);
 
     const copia = [...array];
 
     for (let i = copia.length - 1; i > 0; i--) {
 
-        const j = Math.floor(Math.random() * (i + 1));
+        const j = Math.floor(random() * (i + 1));
 
         [copia[i], copia[j]] = [copia[j], copia[i]];
 
@@ -41,19 +55,20 @@ function obtenerClaveHoy() {
 
 function obtenerParrillaDelDia() {
 
-    const clave = "parrilla-" + obtenerClaveHoy();
+    const hoy = new Date();
 
-    let parrilla = JSON.parse(localStorage.getItem(clave));
+    const seed =
+        hoy.getFullYear() * 10000 +
+        (hoy.getMonth() + 1) * 100 +
+        hoy.getDate();
 
-    if (parrilla) return parrilla;
+    return mezclarArray(
 
-    parrilla = mezclarArray(
-        podcasts.map((_, indice) => indice)
+        podcasts.map((_, indice) => indice),
+
+        seed
+
     );
-
-    localStorage.setItem(clave, JSON.stringify(parrilla));
-
-    return parrilla;
 
 }
 
