@@ -185,6 +185,8 @@ async function cargar() {
 
     reproducir(0);
 
+    console.log(obtenerParrillaDelDia());
+
 }
 
 player.addEventListener("ended", () => {
