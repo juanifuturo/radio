@@ -128,19 +128,55 @@ function calcularDirecto() {
 
 }
 
+function reproducirDirecto(autoplay = true) {
+
+    modoDirecto = true;
+
+    document.getElementById("liveButton").style.display = "none";
+
+    const directo = calcularDirecto();
+
+    reproducir(directo.indice, false, true);
+
+    player.addEventListener("loadedmetadata", function sincronizar() {
+
+        player.currentTime = directo.segundo;
+
+        if (autoplay) {
+
+            player.play().catch(() => {});
+
+        }
+
+        player.removeEventListener("loadedmetadata", sincronizar);
+
+    });
+
+}
+
 //--------------------------------------------------
 // Reproducción
 //--------------------------------------------------
 
 function reproducir(indice, autoplay = true) {
 
+    function reproducir(indice, autoplay = true, directo = false) {
+
+    modoDirecto = directo;
+
     guardarPosicion();
 
     indiceActual = indice;
 
-    modoDirecto = false;
+if (!modoDirecto) {
 
     document.getElementById("liveButton").style.display = "block";
+
+} else {
+
+    document.getElementById("liveButton").style.display = "none";
+
+}
 
     localStorage.setItem("indiceActual", indice);
 
@@ -267,18 +303,9 @@ async function cargar() {
 
     });
 
-    // Ocultar botón "Volver al directo"
-    document.getElementById("liveButton").style.display = "none";
+   restaurarPosicion = false;
 
-    // De momento cargamos el primer programa,
-    // pero sin reproducir automáticamente.
-
-    restaurarPosicion = false;
-
-    reproducir(0, false);
-
-    console.log(obtenerParrillaDelDia());
-    console.log(calcularDirecto());
+reproducirDirecto(false);
 
 }
 
@@ -331,6 +358,12 @@ document.getElementById("prevButton").addEventListener("click", () => {
     restaurarPosicion = false;
 
     reproducir(anterior);
+
+});
+
+document.getElementById("liveButton").addEventListener("click", () => {
+
+    reproducirDirecto();
 
 });
 
