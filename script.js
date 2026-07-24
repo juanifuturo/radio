@@ -72,6 +72,21 @@ function obtenerParrillaDelDia() {
 
 }
 
+function obtenerOffsetDelDia() {
+
+    const hoy = new Date();
+
+    const seed =
+        hoy.getFullYear() * 10000 +
+        (hoy.getMonth() + 1) * 100 +
+        hoy.getDate();
+
+    const random = crearRandom(seed + 9999);
+
+    return Math.floor(random() * 86400);
+
+}
+
 function duracionEnSegundos(texto) {
 
     if (!texto) return 0;
@@ -108,6 +123,16 @@ function calcularDirecto() {
         ahora.getMinutes() * 60 +
         ahora.getSeconds();
 
+    const offset = obtenerOffsetDelDia();
+
+segundosHoy -= offset;
+
+while (segundosHoy < 0) {
+
+    segundosHoy += 86400;
+
+}
+
     let acumulado = 0;
 
     while (true) {
@@ -140,7 +165,7 @@ function calcularDirecto() {
         // Si se acaba la parrilla, vuelve a empezar.
 
     }
-
+console.log("Offset:", obtenerOffsetDelDia());
 }
 
 function reproducirDirecto(autoplay = true) {
