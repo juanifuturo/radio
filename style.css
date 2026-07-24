@@ -20,9 +20,10 @@ h1 {
 
 .controls{
 
-    display:flex;
-
-    gap:10px;
+      display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 
     margin-bottom:30px;
 
