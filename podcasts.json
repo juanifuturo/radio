@@ -197,9 +197,18 @@
       "duration": "01:07:50"
     }
   },
-   {
+  {
     "slot": 15,
     "name": "MELODÍAS PIZARRAS",
-    "rss": "http://api.rtve.es/api/programas/120051/audios.rss"
+    "rss": "http://api.rtve.es/api/programas/120051/audios.rss",
+    "lastEpisode": {
+      "title": "Melodías pIzarras - 78 rpm - Final de temporada - 27/06/26",
+      "date": "Fri, 26 Jun 2026 22:00:00 GMT",
+      "audio": "https://ztnr.rtve.es/ztnr/17133951.mp3",
+      "webpage": "https://www.rtve.es/play/audios/melodias-pizarras-78-rpm/final-temporada-27-06-26/17133951/",
+      "image": "https://img.rtve.es/imagenes/melodias-pizarras-78-rpm/01759737537647.jpg",
+      "description": "Hasta nuestro regreso en octubre, en este último programa de la temporada, disfrutaremos de un refrescante surtido de locuras y maravillas con swing, boogie, jazz gitano, western swing, mento, baiao, mambo, guaracha, yodel polka, hawaiian, rhythm and blues, hot jazz, old time, calypso, fox trot.\n¡Feliz verano pizarro!\nTodos los viernes a partir de las doce de la noche en la sintonía de Radio Clásica.\nhttps://www.rtve.es/play/audios/melodias-pizarras-78-rpm/\nmelodiaspizarras78rpm@rtve.es\nhttp://radioclasica.es/\n\nEscuchar audio",
+      "duration": "00:58:07"
+    }
   }
 ]
