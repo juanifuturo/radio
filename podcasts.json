@@ -196,5 +196,10 @@
       "description": "En este episodio les contamos todo sobre el anuncio de los títulos que veremos en la 83ª edición del Festival de Venecia, marcada por la escasez de mujeres directoras y por la presencia en competición de dos coproducciones españolas: 'Bunker', con Penélope Cruz y Javier Bardem, y 'Sucederá esta noche' de Nanni Moretti. También hablaremos con Carlos Cuevas, que presenta 'El anfitrión', sátira dramática en la que comparte pantalla con Willem Dafoe; y con Alberto Ammann, que protagoniza 'La mujer de la fila, un emocionante relato sobre el día a día de las familias de los reclusos. Pero hay otros estrenos interesantes que llegan a la cartelera. Por ejemplo, 'El mensaje' o películas sobre deportes como 'El sueño americano' o 'Dink', en Apple TV. Además, hay cine español con 'Tres de más', una comedia familiar encabezada por Salva Reina y Kira Miró. Viajamos a Barcelona para visitar el rodaje de la segunda temporada de 'El otro lado', la serie de Berto Romero; y hablamos con Jauma Ripoll, director del Atlàntida Film Fest, que se celebra en Mallorca del 24 de julio al 2 de agosto.",
       "duration": "01:07:50"
     }
+  },
+   {
+    "slot": 15,
+    "name": "MELODÍAS PIZARRAS",
+    "rss": "http://api.rtve.es/api/programas/120051/audios.rss"
   }
 ]
