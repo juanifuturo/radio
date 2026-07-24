@@ -9,6 +9,10 @@ const playing = document.getElementById("playing");
 const duration = document.getElementById("duration");
 const contenedor = document.getElementById("podcasts");
 
+//--------------------------------------------------
+// Utilidades
+//--------------------------------------------------
+
 function mezclarArray(array) {
 
     const copia = [...array];
@@ -30,8 +34,8 @@ function obtenerClaveHoy() {
     const hoy = new Date();
 
     return hoy.getFullYear() + "-" +
-           String(hoy.getMonth() + 1).padStart(2, "0") + "-" +
-           String(hoy.getDate()).padStart(2, "0");
+        String(hoy.getMonth() + 1).padStart(2, "0") + "-" +
+        String(hoy.getDate()).padStart(2, "0");
 
 }
 
@@ -41,13 +45,10 @@ function obtenerParrillaDelDia() {
 
     let parrilla = JSON.parse(localStorage.getItem(clave));
 
-    if (parrilla)
-        return parrilla;
+    if (parrilla) return parrilla;
 
     parrilla = mezclarArray(
-
         podcasts.map((_, indice) => indice)
-
     );
 
     localStorage.setItem(clave, JSON.stringify(parrilla));
@@ -56,7 +57,11 @@ function obtenerParrillaDelDia() {
 
 }
 
-function reproducir(indice) {
+//--------------------------------------------------
+// Reproducción
+//--------------------------------------------------
+
+function reproducir(indice, autoplay = true) {
 
     guardarPosicion();
 
@@ -71,8 +76,11 @@ function reproducir(indice) {
     const podcast = podcasts[indice];
 
     if (!podcast.lastEpisode) {
+
         alert("Este podcast todavía no está disponible.");
+
         return;
+
     }
 
     player.src = podcast.lastEpisode.audio;
@@ -94,7 +102,9 @@ function reproducir(indice) {
         player.addEventListener("loadedmetadata", function restaurar() {
 
             if (!isNaN(tiempoGuardado)) {
+
                 player.currentTime = tiempoGuardado;
+
             }
 
             player.removeEventListener(
@@ -108,9 +118,17 @@ function reproducir(indice) {
 
     }
 
-    player.play();
+    if (autoplay) {
+
+        player.play().catch(() => {});
+
+    }
 
 }
+
+//--------------------------------------------------
+// Carga de podcasts
+//--------------------------------------------------
 
 async function cargar() {
 
@@ -122,7 +140,9 @@ async function cargar() {
         a.name.localeCompare(
             b.name,
             "es",
-            { sensitivity: "base" }
+            {
+                sensitivity: "base"
+            }
         )
     );
 
@@ -143,17 +163,18 @@ async function cargar() {
         const fecha =
             podcast.lastEpisode?.date
                 ? new Date(
-                      podcast.lastEpisode.date
-                  ).toLocaleDateString("es-ES", {
-                      day: "numeric",
-                      month: "short",
-                      year: "numeric"
-                  })
+                    podcast.lastEpisode.date
+                ).toLocaleDateString("es-ES", {
+                    day: "numeric",
+                    month: "short",
+                    year: "numeric"
+                })
                 : "";
 
         bloque.innerHTML = `
             <div class="info">
                 <h2>${podcast.name.toUpperCase()}</h2>
+
                 <p>${titulo}</p>
 
                 <div class="meta">
@@ -178,23 +199,29 @@ async function cargar() {
     // Ocultar botón "Volver al directo"
     document.getElementById("liveButton").style.display = "none";
 
-    // De momento empezamos por el primer podcast.
-    // En el siguiente paso esto se sustituirá por el modo DIRECTO.
+    // De momento cargamos el primer programa,
+    // pero sin reproducir automáticamente.
 
     restaurarPosicion = false;
 
-    reproducir(0);
+    reproducir(0, false);
 
     console.log(obtenerParrillaDelDia());
 
 }
+
+//--------------------------------------------------
+// Botones
+//--------------------------------------------------
 
 player.addEventListener("ended", () => {
 
     let siguiente = indiceActual + 1;
 
     if (siguiente >= podcasts.length) {
+
         siguiente = 0;
+
     }
 
     restaurarPosicion = false;
@@ -208,7 +235,9 @@ document.getElementById("nextButton").addEventListener("click", () => {
     let siguiente = indiceActual + 1;
 
     if (siguiente >= podcasts.length) {
+
         siguiente = 0;
+
     }
 
     restaurarPosicion = false;
@@ -222,7 +251,9 @@ document.getElementById("prevButton").addEventListener("click", () => {
     let anterior = indiceActual - 1;
 
     if (anterior < 0) {
+
         anterior = podcasts.length - 1;
+
     }
 
     restaurarPosicion = false;
@@ -230,6 +261,10 @@ document.getElementById("prevButton").addEventListener("click", () => {
     reproducir(anterior);
 
 });
+
+//--------------------------------------------------
+// Guardar posición
+//--------------------------------------------------
 
 function guardarPosicion() {
 
@@ -250,5 +285,7 @@ window.addEventListener(
     "beforeunload",
     guardarPosicion
 );
+
+//--------------------------------------------------
 
 cargar();
