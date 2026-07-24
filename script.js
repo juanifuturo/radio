@@ -428,4 +428,29 @@ window.addEventListener(
 
 //--------------------------------------------------
 
+function iniciarRadio() {
+
+    if (!player.paused) return;
+
+    player.play().catch(() => {});
+
+    document.removeEventListener("click", iniciarRadio);
+    document.removeEventListener("keydown", detectarTecla);
+
+}
+
+function detectarTecla(e) {
+
+    if (e.code === "Space" || e.code === "Enter") {
+
+        iniciarRadio();
+
+    }
+
+}
+
+document.addEventListener("click", iniciarRadio);
+
+document.addEventListener("keydown", detectarTecla);
+
 cargar();
