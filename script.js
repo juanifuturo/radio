@@ -165,7 +165,7 @@ while (segundosHoy < 0) {
         // Si se acaba la parrilla, vuelve a empezar.
 
     }
-console.log("Offset:", obtenerOffsetDelDia());
+
 }
 
 function reproducirDirecto(autoplay = true) {
