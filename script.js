@@ -1,5 +1,6 @@
 let podcasts = [];
 let indiceActual = 0;
+let modoDirecto = true;
 let restaurarPosicion = true;
 
 const player = document.getElementById("player");
@@ -12,6 +13,10 @@ function reproducir(indice) {
     guardarPosicion();
 
     indiceActual = indice;
+
+    modoDirecto = false;
+
+    document.getElementById("liveButton").style.display = "block";
 
     localStorage.setItem("indiceActual", indice);
 
