@@ -9,6 +9,53 @@ const playing = document.getElementById("playing");
 const duration = document.getElementById("duration");
 const contenedor = document.getElementById("podcasts");
 
+function mezclarArray(array) {
+
+    const copia = [...array];
+
+    for (let i = copia.length - 1; i > 0; i--) {
+
+        const j = Math.floor(Math.random() * (i + 1));
+
+        [copia[i], copia[j]] = [copia[j], copia[i]];
+
+    }
+
+    return copia;
+
+}
+
+function obtenerClaveHoy() {
+
+    const hoy = new Date();
+
+    return hoy.getFullYear() + "-" +
+           String(hoy.getMonth() + 1).padStart(2, "0") + "-" +
+           String(hoy.getDate()).padStart(2, "0");
+
+}
+
+function obtenerParrillaDelDia() {
+
+    const clave = "parrilla-" + obtenerClaveHoy();
+
+    let parrilla = JSON.parse(localStorage.getItem(clave));
+
+    if (parrilla)
+        return parrilla;
+
+    parrilla = mezclarArray(
+
+        podcasts.map((_, indice) => indice)
+
+    );
+
+    localStorage.setItem(clave, JSON.stringify(parrilla));
+
+    return parrilla;
+
+}
+
 function reproducir(indice) {
 
     guardarPosicion();
