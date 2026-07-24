@@ -30,6 +30,23 @@ h1 {
 
 }
 
+.meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 8px;
+}
+
+.meta span:first-child {
+    text-align: left;
+}
+
+.meta span:last-child {
+    text-align: right;
+    margin-left: auto;
+}
+
 .program {
 
     border: 1px solid #d8d8d8;
