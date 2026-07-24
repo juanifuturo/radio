@@ -158,9 +158,11 @@ function reproducirDirecto(autoplay = true) {
 // Reproducción
 //--------------------------------------------------
 
-function reproducir(indice, autoplay = true) {
+//--------------------------------------------------
+// Reproducción
+//--------------------------------------------------
 
-    function reproducir(indice, autoplay = true, directo = false) {
+function reproducir(indice, autoplay = true, directo = false) {
 
     modoDirecto = directo;
 
@@ -168,15 +170,15 @@ function reproducir(indice, autoplay = true) {
 
     indiceActual = indice;
 
-if (!modoDirecto) {
+    if (!modoDirecto) {
 
-    document.getElementById("liveButton").style.display = "block";
+        document.getElementById("liveButton").style.display = "block";
 
-} else {
+    } else {
 
-    document.getElementById("liveButton").style.display = "none";
+        document.getElementById("liveButton").style.display = "none";
 
-}
+    }
 
     localStorage.setItem("indiceActual", indice);
 
@@ -214,10 +216,7 @@ if (!modoDirecto) {
 
             }
 
-            player.removeEventListener(
-                "loadedmetadata",
-                restaurar
-            );
+            player.removeEventListener("loadedmetadata", restaurar);
 
         });
 
