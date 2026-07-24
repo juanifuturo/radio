@@ -1,5 +1,6 @@
 let podcasts = [];
 let indiceActual = 0;
+
 let modoDirecto = true;
 let restaurarPosicion = true;
 
@@ -35,10 +36,13 @@ function reproducir(indice) {
     duration.textContent =
         "Duración: " + (podcast.lastEpisode.duration || "Desconocida");
 
-    if (restaurarPosicion &&
-        indice === Number(localStorage.getItem("indiceActual"))) {
+    if (
+        restaurarPosicion &&
+        indice === Number(localStorage.getItem("indiceActual"))
+    ) {
 
-        const tiempoGuardado = Number(localStorage.getItem("posicionPodcast"));
+        const tiempoGuardado =
+            Number(localStorage.getItem("posicionPodcast"));
 
         player.addEventListener("loadedmetadata", function restaurar() {
 
@@ -46,7 +50,10 @@ function reproducir(indice) {
                 player.currentTime = tiempoGuardado;
             }
 
-            player.removeEventListener("loadedmetadata", restaurar);
+            player.removeEventListener(
+                "loadedmetadata",
+                restaurar
+            );
 
         });
 
@@ -64,11 +71,12 @@ async function cargar() {
 
     podcasts = await respuesta.json();
 
-    // Orden alfabético
     podcasts.sort((a, b) =>
-        a.name.localeCompare(b.name, "es", {
-            sensitivity: "base"
-        })
+        a.name.localeCompare(
+            b.name,
+            "es",
+            { sensitivity: "base" }
+        )
     );
 
     contenedor.innerHTML = "";
@@ -79,16 +87,22 @@ async function cargar() {
 
         bloque.className = "program";
 
-        const titulo = podcast.lastEpisode?.title || "Actualizando...";
-        const duracion = podcast.lastEpisode?.duration || "";
+        const titulo =
+            podcast.lastEpisode?.title || "Actualizando...";
 
-        const fecha = podcast.lastEpisode?.date
-            ? new Date(podcast.lastEpisode.date).toLocaleDateString("es-ES", {
-                  day: "numeric",
-                  month: "short",
-                  year: "numeric"
-              })
-            : "";
+        const duracion =
+            podcast.lastEpisode?.duration || "";
+
+        const fecha =
+            podcast.lastEpisode?.date
+                ? new Date(
+                      podcast.lastEpisode.date
+                  ).toLocaleDateString("es-ES", {
+                      day: "numeric",
+                      month: "short",
+                      year: "numeric"
+                  })
+                : "";
 
         bloque.innerHTML = `
             <div class="info">
@@ -104,7 +118,8 @@ async function cargar() {
 
         bloque.addEventListener("click", () => {
 
-            restaurarPosicion = false;
+            restaurarPosicion = true;
+
             reproducir(indice);
 
         });
@@ -113,18 +128,15 @@ async function cargar() {
 
     });
 
-    const guardado = localStorage.getItem("indiceActual");
+    // Ocultar botón "Volver al directo"
+    document.getElementById("liveButton").style.display = "none";
 
-    if (guardado !== null && guardado < podcasts.length) {
+    // De momento empezamos por el primer podcast.
+    // En el siguiente paso esto se sustituirá por el modo DIRECTO.
 
-        reproducir(Number(guardado));
+    restaurarPosicion = false;
 
-    } else {
-
-        restaurarPosicion = false;
-        reproducir(0);
-
-    }
+    reproducir(0);
 
 }
 
@@ -137,6 +149,7 @@ player.addEventListener("ended", () => {
     }
 
     restaurarPosicion = false;
+
     reproducir(siguiente);
 
 });
@@ -150,6 +163,7 @@ document.getElementById("nextButton").addEventListener("click", () => {
     }
 
     restaurarPosicion = false;
+
     reproducir(siguiente);
 
 });
@@ -163,6 +177,7 @@ document.getElementById("prevButton").addEventListener("click", () => {
     }
 
     restaurarPosicion = false;
+
     reproducir(anterior);
 
 });
@@ -171,17 +186,20 @@ function guardarPosicion() {
 
     if (!player.src) return;
 
-    localStorage.setItem("posicionPodcast", player.currentTime);
+    localStorage.setItem(
+        "posicionPodcast",
+        player.currentTime
+    );
 
 }
 
-// Al pausar
 player.addEventListener("pause", guardarPosicion);
 
-// Al terminar un episodio
 player.addEventListener("ended", guardarPosicion);
 
-// Antes de cerrar o recargar la página
-window.addEventListener("beforeunload", guardarPosicion);
+window.addEventListener(
+    "beforeunload",
+    guardarPosicion
+);
 
 cargar();
