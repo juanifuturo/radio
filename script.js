@@ -57,6 +57,77 @@ function obtenerParrillaDelDia() {
 
 }
 
+function duracionEnSegundos(texto) {
+
+    if (!texto) return 0;
+
+    const partes = texto.split(":").map(Number);
+
+    if (partes.length === 3) {
+
+        return partes[0] * 3600 +
+               partes[1] * 60 +
+               partes[2];
+
+    }
+
+    if (partes.length === 2) {
+
+        return partes[0] * 60 +
+               partes[1];
+
+    }
+
+    return 0;
+
+}
+
+function calcularDirecto() {
+
+    const parrilla = obtenerParrillaDelDia();
+
+    const ahora = new Date();
+
+    let segundosHoy =
+        ahora.getHours() * 3600 +
+        ahora.getMinutes() * 60 +
+        ahora.getSeconds();
+
+    let acumulado = 0;
+
+    while (true) {
+
+        for (const indice of parrilla) {
+
+            const podcast = podcasts[indice];
+
+            const duracion =
+                duracionEnSegundos(
+                    podcast.lastEpisode.duration
+                );
+
+            if (segundosHoy < acumulado + duracion) {
+
+                return {
+
+                    indice,
+
+                    segundo: segundosHoy - acumulado
+
+                };
+
+            }
+
+            acumulado += duracion;
+
+        }
+
+        // Si se acaba la parrilla, vuelve a empezar.
+
+    }
+
+}
+
 //--------------------------------------------------
 // Reproducción
 //--------------------------------------------------
@@ -207,6 +278,7 @@ async function cargar() {
     reproducir(0, false);
 
     console.log(obtenerParrillaDelDia());
+    console.log(calcularDirecto());
 
 }
 
