@@ -178,7 +178,7 @@ function reproducirDirecto(autoplay = true) {
 
     reproducir(directo.indice, false, true);
 
-    player.addEventListener("loadedmetadata", function sincronizar() {
+    player.addEventListener("canplay", function sincronizar() {
 
         player.currentTime = directo.segundo;
 
@@ -188,7 +188,7 @@ function reproducirDirecto(autoplay = true) {
 
         }
 
-        player.removeEventListener("loadedmetadata", sincronizar);
+        player.removeEventListener("canplay", sincronizar);
 
     });
 
