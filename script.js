@@ -158,10 +158,6 @@ function reproducirDirecto(autoplay = true) {
 // Reproducción
 //--------------------------------------------------
 
-//--------------------------------------------------
-// Reproducción
-//--------------------------------------------------
-
 function reproducir(indice, autoplay = true, directo = false) {
 
     modoDirecto = directo;
