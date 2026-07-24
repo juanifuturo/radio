@@ -133,7 +133,7 @@
     "name": "TERRITORIO 9",
     "rss": "http://www.rtve.es/api/programas/139010/audios.rss",
     "lastEpisode": {
-      "title": "Territorio 9 - La Pantalla Chinija y El Arenero - 24/07/26",
+      "title": "Territorio 9 - La Pantalla Chinija de Tenique Cultural y El Arenero - 24/07/26",
       "date": "Fri, 24 Jul 2026 13:00:00 GMT",
       "audio": "https://ztnr.rtve.es/ztnr/17168392.mp3",
       "webpage": "https://www.rtve.es/play/audios/territorio-9/pantalla-chinija-arenero-24-07-26/17168392/",
@@ -161,13 +161,13 @@
     "name": "EL OJO CRÍTICO",
     "rss": "http://www.rtve.es/api/programas/1957/audios.rss",
     "lastEpisode": {
-      "title": "El Ojo Crítico - Lorena Iglesias presenta 'Millennial Mal'",
-      "date": "Thu, 23 Jul 2026 17:00:07 GMT",
-      "audio": "https://ztnr.rtve.es/ztnr/17167237.mp3",
-      "webpage": "https://www.rtve.es/play/audios/el-ojo-critico/lorena-iglesias-presenta-millennial-mal/17167237/",
+      "title": "El Ojo Crítico - The Strokes regresan con \"Reality Awaits\"",
+      "date": "Fri, 24 Jul 2026 16:17:39 GMT",
+      "audio": "https://ztnr.rtve.es/ztnr/17168585.mp3",
+      "webpage": "https://www.rtve.es/play/audios/el-ojo-critico/strokes-regresan-reality-awaits/17168585/",
       "image": "https://img.rtve.es/imagenes/el-ojo-critico/01756477713478.jpg",
-      "description": "La actriz, guionista y directora Lorena Iglesias visita El Ojo Crítico para presentar Millennial Mal, la serie que escribe, dirige y protagoniza. La ficción sigue a Judith, una bibliotecaria que, por un error burocrático, recibe una beca destinada a menores de 30 años y decide hacerse pasar por una veinteañera. Una comedia que reflexiona con humor sobre la identidad, las diferencias entre generaciones y las dificultades de quienes llegaron al mercado laboral en plena crisis.\nRecordamos también a Amy Winehouse cuando se cumplen 15 años de su fallecimiento. Junto a María Taosa repasamos la trayectoria de una artista que revolucionó el soul, el jazz y el R&B con una voz inconfundible y convirtió discos como Frank y Back to Black en referentes de la música contemporánea.\nEl programa recorre además la actualidad cinematográfica con la presencia de Javier Bardem y Penélope Cruz en la Sección Oficial del Festival de Venecia, donde competirán con Búnker, la nueva película de Florian Zeller.\nTambién conocemos La Abadía cruza la calle, el proyecto del Teatro de La Abadía que utiliza el teatro como herramienta de transformación social en el madrileño barrio de Chamberí, descubrimos el archivo fotográfico de Isabel Azkarate con motivo de su incorporación a la colección PhotoBolsillo de La Fábrica y damos voz a los oyentes con Tu Ojo Crítico, el nuevo espacio participativo de El Ojo Crítico enviando tus mensajes de voz al nº de Whatsapp: 680 334 455 que ya recibe las primeras recomendaciones culturales de la audiencia.\n\nEscuchar audio",
-      "duration": "00:46:42"
+      "description": "The Strokes regresan con Reality Awaits, su primer álbum de estudio en seis años. En El Ojo Crítico analizamos el esperado lanzamiento de la banda neoyorquina y la polémica generada por el uso del autotune en la voz de Julian Casablancas, una de las señas de identidad de los primeros adelantos del disco.\nTambién repasamos los principales estrenos de cine de la semana junto a Conxita Casanovas, recientemente distinguida con la Medalla de Honor de Barcelona. Entre ellos destacan El anfitrión, la nueva película griega protagonizada por Willem Dafoe y Emma Suárez; El mensaje, el drama familiar dirigido por Iván Fund; La última travesía, inspirada en el cortometraje nominado al Óscar Refugee de Brandt Andersen; y la comedia francesa El sueño americano, de Anthony Marciano.\nViajamos además al Festival de Peralada, donde se estrena la micro ópera de Carles Prat, con libreto de Carlota Gurt y dirección escénica de Oriol Pla, una sátira sobre la obsesión por la apariencia y la construcción de la identidad en la era digital nacida del proyecto Òh!pera del Gran Teatre del Liceu.\nEn literatura, Sabina Urraca se despide del taller Persiguiendo a tu enjambre, dedicado en esta última sesión a Los gemelos, cediendo el testigo a la escritora María Fernanda Ampuero. Cerramos el programa con Elena Rosillo, que recorre la historia y el impacto cultural de la música de la Ruta del Bakalao.\n\nEscuchar audio",
+      "duration": "00:46:13"
     }
   },
   {
@@ -187,7 +187,14 @@
   {
     "slot": 14,
     "name": "EL CINE EN LA SER",
-    "rss": "https://fapi-top.prisasd.com/podcast/playser/el_cine_en_la_ser/itunestfp/podcast.xml"
-    
+    "rss": "https://fapi-top.prisasd.com/podcast/playser/el_cine_en_la_ser/itunestfp/podcast.xml",
+    "lastEpisode": {
+      "title": "La sátira sobre Onassis de Willem Dafoe y una Venecia con pocas mujeres y acento español",
+      "date": "Fri, 24 Jul 2026 07:00:00 +0200",
+      "audio": "https://prisa-es.mc.tritondigital.com/EL_CINE_EN_LA_SER_SER_PODCAST_327_P/media/playser/audio/20267/23/5043223.mp3?dest=el_cine_en_la_ser",
+      "image": "https://sdmedia.playser.cadenaser.com/playser/image/20246/05/1717597479200_760.jpeg",
+      "description": "En este episodio les contamos todo sobre el anuncio de los títulos que veremos en la 83ª edición del Festival de Venecia, marcada por la escasez de mujeres directoras y por la presencia en competición de dos coproducciones españolas: 'Bunker', con Penélope Cruz y Javier Bardem, y 'Sucederá esta noche' de Nanni Moretti. También hablaremos con Carlos Cuevas, que presenta 'El anfitrión', sátira dramática en la que comparte pantalla con Willem Dafoe; y con Alberto Ammann, que protagoniza 'La mujer de la fila, un emocionante relato sobre el día a día de las familias de los reclusos. Pero hay otros estrenos interesantes que llegan a la cartelera. Por ejemplo, 'El mensaje' o películas sobre deportes como 'El sueño americano' o 'Dink', en Apple TV. Además, hay cine español con 'Tres de más', una comedia familiar encabezada por Salva Reina y Kira Miró. Viajamos a Barcelona para visitar el rodaje de la segunda temporada de 'El otro lado', la serie de Berto Romero; y hablamos con Jauma Ripoll, director del Atlàntida Film Fest, que se celebra en Mallorca del 24 de julio al 2 de agosto.",
+      "duration": "01:07:50"
+    }
   }
 ]
