@@ -210,5 +210,71 @@
       "description": "Hasta nuestro regreso en octubre, en este último programa de la temporada, disfrutaremos de un refrescante surtido de locuras y maravillas con swing, boogie, jazz gitano, western swing, mento, baiao, mambo, guaracha, yodel polka, hawaiian, rhythm and blues, hot jazz, old time, calypso, fox trot.\n¡Feliz verano pizarro!\nTodos los viernes a partir de las doce de la noche en la sintonía de Radio Clásica.\nhttps://www.rtve.es/play/audios/melodias-pizarras-78-rpm/\nmelodiaspizarras78rpm@rtve.es\nhttp://radioclasica.es/\n\nEscuchar audio",
       "duration": "00:58:07"
     }
+  },
+  
+    {
+    "slot": 16,
+    "name": "PAR-IMPAR",
+    "rss": "https://esradio.libertaddigital.com/par-impar/podcast.xml"
+
+  },
+
+  {
+    "slot": 17,
+    "name": "DE PELÍCULA",
+    "rss": "http://api.rtve.es/api/programas/1921/audios.rss"
+
+  },
+
+  {
+    "slot": 18,
+    "name": "COWBOYS DE MEDIANOCHE",
+    "rss": "https://esradio.libertaddigital.com/cowboys-de-medianoche/podcast.xml"
+
+  },
+
+  {
+    "slot": 19,
+    "name": "TODOPODEROSOS",
+    "rss": "https://feeds.feedburner.com/Todopoderosos"
+
+  },
+
+  {
+    "slot": 20,
+    "name": "TOMOS Y GRAPAS",
+    "rss": "https://feeds.ivoox.com/feed_fg_f1126491_filtro_1.xml"
+
+  },
+
+  {
+    "slot": 21,
+    "name": "LAS NOCHES DE ORTEGA",
+    "rss": "https://fapi-top.prisasd.com/podcast/playser/las_noches_de_ortega.xml"
+
+  },
+
+  {
+    "slot": 22,
+    "name": "SOFÁ SONORO",
+    "rss": "https://fapi-top.prisasd.com/podcast/playser/sofa_sonoro/itunestfp/podcast.xml"
+
+  },
+
+  {
+    "slot": 23,
+    "name": "EL RECUENTO MUSICAL",
+    "rss": "https://feeds.feedburner.com/ElRecuentoMusical"
+
+  },
+
+  {
+    "slot": 24,
+    "name": "LOS ARISTÓCRATAS",
+    "rss": "https://feeds.ivoox.com/feed_fg_f1320674_filtro_1.xml"
+
   }
+
+
+
 ]
