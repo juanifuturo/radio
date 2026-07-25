@@ -30,9 +30,23 @@ async function cargar() {
 
     const respuesta = await fetch("podcasts.json");
 
-    podcasts = await respuesta.json();
+podcasts = await respuesta.json();
 
-    const contenedor = document.getElementById("podcasts");
+podcasts.sort((a, b) => {
+
+    const fechaA = a.lastEpisode?.date
+        ? new Date(a.lastEpisode.date)
+        : new Date(0);
+
+    const fechaB = b.lastEpisode?.date
+        ? new Date(b.lastEpisode.date)
+        : new Date(0);
+
+    return fechaB - fechaA;
+
+});
+
+const contenedor = document.getElementById("podcasts");
 
     contenedor.innerHTML = "";
 
