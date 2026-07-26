@@ -66,6 +66,28 @@ const fecha = podcast.lastEpisode?.date
       })
     : "";
 
+
+
+const lista = document.getElementById("linksPodcast");
+
+lista.innerHTML = "";
+
+podcasts.forEach(podcast => {
+
+    const li = document.createElement("li");
+
+    li.innerHTML = `
+        <a href="${podcast.lastEpisode.webpage}"
+           target="_blank">
+            ${podcast.name}
+        </a>
+    `;
+
+    lista.appendChild(li);
+
+});
+        
+
 bloque.innerHTML = `
     <div class="info">
         <h2>${podcast.name.toUpperCase()}</h2>
