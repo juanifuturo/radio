@@ -139,4 +139,23 @@ audio {
 
     }
 
+
+    #podcastLinks{
+    margin-top:40px;
+}
+
+#podcastLinks summary{
+    cursor:pointer;
+    font-weight:bold;
+}
+
+#linksPodcast{
+    margin-top:15px;
+    padding-left:20px;
+}
+
+#linksPodcast li{
+    margin:8px 0;
+}
+
 }
