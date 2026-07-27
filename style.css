@@ -158,4 +158,25 @@ audio {
     margin:8px 0;
 }
 
+    #linksPodcast a,
+#linksPodcast a:visited {
+
+    color: #000;
+
+    text-decoration: none;
+
+}
+    #linksPodcast a:hover {
+
+    color: #000;
+
+    text-decoration: underline;
+
+}
+    #linksPodcast a:active {
+
+    color: #000;
+
+}
+
 }
