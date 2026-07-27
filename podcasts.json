@@ -1,6 +1,7 @@
 [
   {
     "slot": 1,
+    "link": "https://sinaudiencia.com/programa-1220/",
     "name": "SIN AUDIENCIA",
     "rss": "https://sinaudiencia.com/feed/podcast/",
     "color": "#F5F5F5",
@@ -12,10 +13,12 @@
       "image": "http://www.sinaudiencia.com/wp-content/uploads/powerpress/Logo-iTunes.jpg",
       "description": "Durante una semifinal del Mundial, un grupo de hackers anti-FIFA puentea la señal tv del partido con la de un festival de cortometrajes a la fresca, lo que cabrea a gran parte de la población furbolera del planeta, pero a cambio, personajes como Los Bailongos, SpoilerMan, Garci SuperStar o incluso Pobre Marciano o Charlie the […]",
       "duration": "2:17:29"
+      
     }
   },
   {
     "slot": 2,
+    "link": "https://sinaudiencia.com/programa-1220/",
     "name": "RAÍZ DE 5",
     "rss": "http://api.rtve.es/api/programas/107070/audios.rss",
     "color": "#F5F5F5",
@@ -31,6 +34,7 @@
   },
   {
     "slot": 3,
+    "link": "https://sinaudiencia.com/programa-1220/",
     "name": "LA LIBÉLULA",
     "rss": "http://api.rtve.es/api/programas/27190/audios.rss",
     "color": "#F5F5F5",
@@ -46,6 +50,7 @@
   },
   {
     "slot": 4,
+    "link": "https://sinaudiencia.com/programa-1220/",
     "name": "DEPRADADOS",
     "rss": "https://www.ondacero.es/rss/podcast/mount/ATRESMEDIA_DEPRADADOS_P/fastly",
     "lastEpisode": {
@@ -60,6 +65,7 @@
   },
   {
     "slot": 5,
+    "link": "https://sinaudiencia.com/programa-1220/",
     "name": "LA CULTURETA",
     "rss": "https://www.ondacero.es/rss/podcast/mount/ATRESMEDIA_LA_CULTURETA_P/fastly",
     "lastEpisode": {
@@ -74,6 +80,7 @@
   },
   {
     "slot": 6,
+    "link": "https://sinaudiencia.com/programa-1220/",
     "name": "FALLO DE SISTEMA",
     "rss": "http://www.rtve.es/api/programas/46690/audios.rss",
     "lastEpisode": {
@@ -88,6 +95,7 @@
   },
   {
     "slot": 7,
+    "link": "https://sinaudiencia.com/programa-1220/",
     "name": "NO NECESITABA SABER ESTO",
     "rss": "https://api.rtve.es/api/programas/134678/audios.rss",
     "lastEpisode": {
@@ -102,6 +110,7 @@
   },
   {
     "slot": 8,
+    "link": "https://sinaudiencia.com/programa-1220/",
     "name": "LOS RETRONAUTAS",
     "rss": "https://feeds.ivoox.com/feed_fg_f157575_filtro_1.xml",
     "lastEpisode": {
@@ -116,6 +125,7 @@
   },
   {
     "slot": 9,
+    "link": "https://sinaudiencia.com/programa-1220/",
     "name": "DESTINO ARRAKIS",
     "rss": "https://feeds.feedburner.com/DestinoArrakis",
     "lastEpisode": {
@@ -130,6 +140,7 @@
   },
   {
     "slot": 10,
+    "link": "https://sinaudiencia.com/programa-1220/",
     "name": "TERRITORIO 9",
     "rss": "http://www.rtve.es/api/programas/139010/audios.rss",
     "lastEpisode": {
@@ -144,6 +155,7 @@
   },
   {
     "slot": 11,
+    "link": "https://sinaudiencia.com/programa-1220/",
     "name": "LA ESTACIÓN AZUL",
     "rss": "http://www.rtve.es/api/programas/2008/audios.rss",
     "lastEpisode": {
@@ -158,6 +170,7 @@
   },
   {
     "slot": 12,
+    "link": "https://sinaudiencia.com/programa-1220/",
     "name": "EL OJO CRÍTICO",
     "rss": "http://www.rtve.es/api/programas/1957/audios.rss",
     "lastEpisode": {
@@ -172,6 +185,7 @@
   },
   {
     "slot": 13,
+    "link": "https://sinaudiencia.com/programa-1220/",
     "name": "SCANNERS",
     "rss": "https://feeds.ivoox.com/feed_fg_f119520_filtro_1.xml",
     "lastEpisode": {
@@ -186,6 +200,7 @@
   },
   {
     "slot": 14,
+    "link": "https://sinaudiencia.com/programa-1220/",
     "name": "EL CINE EN LA SER",
     "rss": "https://fapi-top.prisasd.com/podcast/playser/el_cine_en_la_ser/itunestfp/podcast.xml",
     "lastEpisode": {
@@ -199,6 +214,7 @@
   },
   {
     "slot": 15,
+    "link": "https://sinaudiencia.com/programa-1220/",
     "name": "MELODÍAS PIZARRAS",
     "rss": "http://api.rtve.es/api/programas/120051/audios.rss",
     "lastEpisode": {
@@ -213,6 +229,7 @@
   },
   {
     "slot": 16,
+    "link": "https://sinaudiencia.com/programa-1220/",
     "name": "PAR-IMPAR",
     "rss": "https://esradio.libertaddigital.com/par-impar/podcast.xml",
     "lastEpisode": {
@@ -227,6 +244,7 @@
   },
   {
     "slot": 17,
+    "link": "https://sinaudiencia.com/programa-1220/",
     "name": "DE PELÍCULA",
     "rss": "http://api.rtve.es/api/programas/1921/audios.rss",
     "lastEpisode": {
@@ -241,6 +259,7 @@
   },
   {
     "slot": 18,
+    "link": "https://sinaudiencia.com/programa-1220/",
     "name": "COWBOYS DE MEDIANOCHE",
     "rss": "https://esradio.libertaddigital.com/cowboys-de-medianoche/podcast.xml",
     "lastEpisode": {
@@ -255,6 +274,7 @@
   },
   {
     "slot": 19,
+    "link": "https://sinaudiencia.com/programa-1220/",
     "name": "TODOPODEROSOS",
     "rss": "https://feeds.feedburner.com/Todopoderosos",
     "lastEpisode": {
@@ -269,6 +289,7 @@
   },
   {
     "slot": 20,
+    "link": "https://sinaudiencia.com/programa-1220/",
     "name": "TOMOS Y GRAPAS",
     "rss": "https://feeds.ivoox.com/feed_fg_f1126491_filtro_1.xml",
     "lastEpisode": {
@@ -283,6 +304,7 @@
   },
   {
     "slot": 21,
+    "link": "https://sinaudiencia.com/programa-1220/",
     "name": "LAS NOCHES DE ORTEGA",
     "rss": "https://fapi-top.prisasd.com/podcast/playser/las_noches_de_ortega.xml",
     "lastEpisode": {
@@ -296,6 +318,7 @@
   },
   {
     "slot": 22,
+    "link": "https://sinaudiencia.com/programa-1220/",
     "name": "SOFÁ SONORO",
     "rss": "https://fapi-top.prisasd.com/podcast/playser/sofa_sonoro/itunestfp/podcast.xml",
     "lastEpisode": {
@@ -309,6 +332,7 @@
   },
   {
     "slot": 23,
+    "link": "https://sinaudiencia.com/programa-1220/",
     "name": "EL RECUENTO MUSICAL",
     "rss": "https://feeds.feedburner.com/ElRecuentoMusical",
     "lastEpisode": {
@@ -323,6 +347,7 @@
   },
   {
     "slot": 24,
+    "link": "https://sinaudiencia.com/programa-1220/",
     "name": "LOS ARISTÓCRATAS",
     "rss": "https://feeds.ivoox.com/feed_fg_f1320674_filtro_1.xml",
     "lastEpisode": {
