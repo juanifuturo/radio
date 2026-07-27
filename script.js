@@ -77,7 +77,7 @@ podcasts.forEach(podcast => {
     const li = document.createElement("li");
 
     li.innerHTML = `
-        <a href="${podcast.lastEpisode.webpage}"
+        <a href="${podcast.link}"
            target="_blank">
             ${podcast.name}
         </a>
