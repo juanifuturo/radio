@@ -187,6 +187,5 @@ desplegable.addEventListener("toggle", () => {
 
 });
 
-cargar();
 
 cargar();
