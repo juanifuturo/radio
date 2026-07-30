@@ -66,30 +66,7 @@ const fecha = podcast.lastEpisode?.date
       })
     : "";
 
-const podcastsOrdenados = [...podcasts].sort((a, b) =>
-    a.name.localeCompare(b.name, "es", {
-        sensitivity: "base"
-    })
-);
 
-const lista = document.getElementById("linksPodcast");
-
-lista.innerHTML = "";
-
-podcastsOrdenados.forEach(podcast => {
-
-    const li = document.createElement("li");
-
-    li.innerHTML = `
-        <a href="${podcast.link}"
-           target="_blank">
-            ${podcast.name}
-        </a>
-    `;
-
-    lista.appendChild(li);
-
-});
         
 
 bloque.innerHTML = `
@@ -114,6 +91,33 @@ bloque.innerHTML = `
 
     });
 
+
+const podcastsOrdenados = [...podcasts].sort((a, b) =>
+    a.name.localeCompare(b.name, "es", {
+        sensitivity: "base"
+    })
+);
+
+const lista = document.getElementById("linksPodcast");
+
+lista.innerHTML = "";
+
+podcastsOrdenados.forEach(podcast => {
+
+    const li = document.createElement("li");
+
+    li.innerHTML = `
+        <a href="${podcast.link}"
+           target="_blank">
+            ${podcast.name}
+        </a>
+    `;
+
+    lista.appendChild(li);
+
+});
+
+    
     const guardado = localStorage.getItem("indiceActual");
 
 if (guardado !== null) {
