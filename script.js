@@ -170,22 +170,25 @@ document.getElementById("prevButton").addEventListener("click", () => {
 
 const desplegable = document.getElementById("podcastLinks");
 
-desplegable.addEventListener("toggle", () => {
+if (desplegable) {
 
-    if (desplegable.open) {
+    desplegable.addEventListener("toggle", () => {
 
-        setTimeout(() => {
+        if (desplegable.open) {
 
-            desplegable.scrollIntoView({
-                behavior: "smooth",
-                block: "center"
-            });
+            setTimeout(() => {
 
-        }, 150);
+                desplegable.scrollIntoView({
+                    behavior: "smooth",
+                    block: "start"
+                });
 
-    }
+            }, 100);
 
-});
+        }
+
+    });
+
 
 
 cargar();
