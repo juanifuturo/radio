@@ -168,26 +168,6 @@ document.getElementById("prevButton").addEventListener("click", () => {
 
 });
 
-const desplegable = document.getElementById("podcastLinks");
-
-if (desplegable) {
-
-    desplegable.addEventListener("toggle", () => {
-
-        if (desplegable.open) {
-
-            setTimeout(() => {
-
-                desplegable.scrollIntoView({
-                    behavior: "smooth",
-                    block: "start"
-                });
-
-            }, 100);
-
-        }
-
-    });
 
 
 
