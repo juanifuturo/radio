@@ -143,13 +143,13 @@
     "name": "TERRITORIO 9",
     "rss": "http://www.rtve.es/api/programas/139010/audios.rss",
     "lastEpisode": {
-      "title": "Territorio 9 - Hip-Hop Movies: películas desde el barrio | Tatakae Otaku: Ookun: los aposentos privados - 17/08/26",
-      "date": "Mon, 17 Aug 2026 14:00:00 GMT",
-      "audio": "https://ztnr.rtve.es/ztnr/17193666.mp3",
-      "webpage": "https://www.rtve.es/play/audios/territorio-9/hip-hop-movies-peliculas-desde-barrio-tatakae-otaku-ookun-aposentos-privados-17-08-26/17193666/",
+      "title": "Territorio 9 - Los fanzines de Jose Haz | El humor en los cómics franco-belgas con Dani Gove - 18/08/26",
+      "date": "Tue, 18 Aug 2026 13:00:00 GMT",
+      "audio": "https://ztnr.rtve.es/ztnr/17194874.mp3",
+      "webpage": "https://www.rtve.es/play/audios/territorio-9/fanzines-jose-haz-humor-comics-franco-belgas-dani-gove-18-08-26/17194874/",
       "image": "https://img.rtve.es/imagenes/territorio-9/01756458872388.jpg",
-      "description": "En el programa 586, charlamos con Víctor Olid de su libro \"Hip-Hop movies: películas desde el barrio\", en el que repasa 130 filmes que giran en torno a la cultura hip-hop. A continuación, en la sección de anime de Gema Ceacero, Tatakae Otaku, nos recomienda Ookun: los aposentos privados. Para terminar, conocemos todo lo que va a pasar en la nueva edición del festival Pollogómez.\n\nEscuchar audio",
-      "duration": "00:59:04"
+      "description": "En el programa 587, nos visita Jose Haz para hablarnos de sus más de 20 años haciendo fanzines. Además, conocemos sus otras facetas artísticas, como la musical en Atomizador. En su sección, \"En todo el colodrillo\", Dani Gove nos habla del humor gráfico en los cómics franco-belgas como Tintón o Astérix.\n\nEscuchar audio",
+      "duration": "00:59:49"
     }
   },
   {
@@ -173,13 +173,13 @@
     "name": "EL OJO CRÍTICO",
     "rss": "http://www.rtve.es/api/programas/1957/audios.rss",
     "lastEpisode": {
-      "title": "El Ojo Crítico - Cristina Armunia Berges y el realismo ácido",
-      "date": "Mon, 17 Aug 2026 15:39:16 GMT",
-      "audio": "https://ztnr.rtve.es/ztnr/17193727.mp3",
-      "webpage": "https://www.rtve.es/play/audios/el-ojo-critico/cristina-armunia-berges-puta-margarita/17193727/",
+      "title": "El Ojo Crítico - 90 años de la muerte de Federico García Lorca",
+      "date": "Tue, 18 Aug 2026 16:36:36 GMT",
+      "audio": "https://ztnr.rtve.es/ztnr/17194993.mp3",
+      "webpage": "https://www.rtve.es/play/audios/el-ojo-critico/ojo-critico-90-anos-muerte-federico-garcia-lorca/17194993/",
       "image": "https://img.rtve.es/imagenes/el-ojo-critico/01785143691893.jpg",
-      "description": "Charlamos con Cristina Armunia Berges sobre realismo mágico, o realismo ácido, el concepto con el que la autora define los pasajes que pueblan su novela La puta margarita y otras flores de mi pueblo, obra sobre el primer amor y el desarraigo.\nLara Hermoso nos recomienda Lo que podemos saber, obra postapocalíptica del autor británico Ian McEwan\nY Vicente Monroy nos trae la historia de los Leningrad Cowboys, grupo de rock finlandés que le debe mucho al cine.\n\nEscuchar audio",
-      "duration": "00:47:23"
+      "description": "'El Ojo Crítico' ha viajado este martes hasta Granada. Y lo ha hecho por un motivo muy especial: hace 90 años se producía el apresamiento y posterior asesinato del poeta y dramaturgo Federico García Lorca. Para recordar su figura hablamos con los cantaores Curro Albaicín y Miguel Poveda, la directora artística del Ballet Flamenco de Andalucía.\n\nEscuchar audio",
+      "duration": "00:52:28"
     }
   },
   {
@@ -321,12 +321,12 @@
     "name": "SOFÁ SONORO",
     "rss": "https://fapi-top.prisasd.com/podcast/playser/sofa_sonoro/itunestfp/podcast.xml",
     "lastEpisode": {
-      "title": "El resurgir del loco",
-      "date": "Sun, 16 Aug 2026 08:00:00 +0200",
-      "audio": "https://prisa-es.mc.tritondigital.com/SOFA_SONORO_SER_PODCAST_594_P/media/playser/audio/20265/20/4959048.mp3?dest=sofa_sonoro",
+      "title": "La cosecha musical de 2001",
+      "date": "Wed, 19 Aug 2026 08:00:00 +0200",
+      "audio": "https://prisa-es.mc.tritondigital.com/SOFA_SONORO_SER_PODCAST_594_P/media/playser/audio/20268/10/5063056.mp3?dest=sofa_sonoro",
       "image": "https://sdmedia.playser.cadenaser.com/playser/image/20253/11/1741703584557_191.jpeg",
-      "description": "Escucha el episodio de esta semana con Igor Paskual, Alfonso Cardenal y Lucía Taboada",
-      "duration": "00:35:46"
+      "description": "Escucha el reportaje de Lucía Taboada",
+      "duration": "00:03:08"
     }
   },
   {
