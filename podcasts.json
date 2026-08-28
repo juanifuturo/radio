@@ -38,7 +38,7 @@
     "rss": "http://api.rtve.es/api/programas/27190/audios.rss",
     "color": "#F5F5F5",
     "lastEpisode": {
-      "title": "La Libélula - BIBLIOTECA DE VERANO. Historia de romanos y rumano - 26/08/23",
+      "title": "La Libélula - BIBLIOTECA DE VERANO. Historia de romanos y búlgaros - 26/08/23",
       "date": "Sun, 23 Aug 2026 15:00:57 GMT",
       "audio": "https://ztnr.rtve.es/ztnr/17188009.mp3",
       "webpage": "https://www.rtve.es/play/audios/la-libelula/libelula-biblioteca-verano-historia-romanos-rumano-26-08-23/17188009/",
@@ -128,13 +128,13 @@
     "name": "DESTINO ARRAKIS",
     "rss": "https://feeds.feedburner.com/DestinoArrakis",
     "lastEpisode": {
-      "title": "WARP10: Star Trek #115 Nuevos y extraños mundos 4x04, Un caso de claroscuro",
-      "date": "Thu, 20 Aug 2026 23:41:41 +0200",
-      "audio": "https://www.ivoox.com/warp10-star-trek-115-nuevos-extranos-mundos_mf_179267217_feed_1.mp3?d=1787262208",
-      "webpage": "https://www.ivoox.com/warp10-star-trek-115-nuevos-extranos-mundos-audios-mp3_rf_179267217_1.html",
+      "title": "WARP10: Star Trek #116 Nuevos y extraños mundos 4x05, Accidente de teletransportador de nivel cinco",
+      "date": "Fri, 28 Aug 2026 00:08:01 +0200",
+      "audio": "https://www.ivoox.com/warp10-star-trek-116-nuevos-extranos-mundos_mf_179623578_feed_1.mp3?d=1787868539",
+      "webpage": "https://www.ivoox.com/warp10-star-trek-116-nuevos-extranos-mundos-audios-mp3_rf_179623578_1.html",
       "image": "https://static-2.ivoox.com/canales/5/1/a/c/51ac2bdf75b0e4a9736ebeb5ea641158_XXL.jpg",
-      "description": "Un mundo ocupado por los klingon y una estrella que hace que todo se vea en blanco y negro nos permite componer una historia al más puro estilo casablanca en el universo de Star Trek. Escucha el episodio completo en la app de iVoox, o descubre todo el catálogo de iVoox Originals",
-      "duration": "57:07"
+      "description": "El quiinto capítulo de la nueva temporada de nuervos y extreños mundo snos trae un capítulo sorprendente e incalificable en el que la tripulación del Enterprise queda convertida en marionetas. Ángel, Iratxe, Juan y Miguel, más blanditos que nunca, se maravillan con vosotros discutiendo sobre el episodio. Escucha el episodio completo en la app de iVoox, o descubre todo el catálogo de iVoox Originals",
+      "duration": "01:12:33"
     }
   },
   {
@@ -143,13 +143,13 @@
     "name": "TERRITORIO 9",
     "rss": "http://www.rtve.es/api/programas/139010/audios.rss",
     "lastEpisode": {
-      "title": "Territorio 9 - Enrique Gato, director de 'Tadeo Jones y la lámpara maravillosa' y Dune Blanco - 27/08/26",
-      "date": "Thu, 27 Aug 2026 13:00:00 GMT",
-      "audio": "https://ztnr.rtve.es/ztnr/17203928.mp3",
-      "webpage": "https://www.rtve.es/play/audios/territorio-9/enrique-gato-director-tadeo-jones-lampara-maravillosa-dune-blanco-27-08-26/17203928/",
+      "title": "Territorio 9 - Cristina Herreros y Anaïs González empatizan con el autismo en La Carrera - 28/08/26",
+      "date": "Fri, 28 Aug 2026 13:00:00 GMT",
+      "audio": "https://ztnr.rtve.es/ztnr/17205181.mp3",
+      "webpage": "https://www.rtve.es/play/audios/territorio-9/cristina-herreros-anais-gonzalez-empatizan-autismo-carrera-28-08-26/17205181/",
       "image": "https://img.rtve.es/imagenes/territorio-9/01756458872388.jpg",
-      "description": "El programa 594 tiene un invitado de lujo. Se trata de Enrique Gato, el creador de la saga Tadeo Jones. En esta ocasión, nos presenta 'Tadeo Jones y la lámpara maravillosa', cuarta entrega de las aventuras de uno de los personajes más icónicos de la animación española. Además, en Animación con A mayúscula, Dune Blanco nos habla de los estrenos de la semana en cines y plataformas, de la nueva serie basada en el videojuego Golden Axe, sobre la serie 'Más allá del jardín' y nos recomienda distintas series.\n\nEscuchar audio",
-      "duration": "00:59:03"
+      "description": "En el programa 595, recibimos a Cristina Herreros y Anaïs González, creadoras de 'La Carrera', editado por Libros de las malas compañías. Este álbum ilustrado cuenta la historia de Nino, Nana y Nono, tres niños con autismo que nos enseñan que se puede correr solo para disfrutar, sin necesidad de competir. En El Arenero, el club de lectura infantil de Nico Naranjo, nos recomienda 'La pequeña genia' de Álvaro Ortiz. Hacemos un repaso a lo más destacado de la temporada 25/26 en Territorio 9. También está con nosotros Irene Rivas, con la que repasamos sus mejores momentos en el programa, y nos anuncia su nuevo programa en Radio 3: ZUM.\n\nEscuchar audio",
+      "duration": "00:58:48"
     }
   },
   {
@@ -173,13 +173,13 @@
     "name": "EL OJO CRÍTICO",
     "rss": "http://www.rtve.es/api/programas/1957/audios.rss",
     "lastEpisode": {
-      "title": "Yayoi Kusama: la sanación a través del arte",
-      "date": "Thu, 27 Aug 2026 15:37:12 GMT",
-      "audio": "https://ztnr.rtve.es/ztnr/17204066.mp3",
-      "webpage": "https://www.rtve.es/play/audios/el-ojo-critico/yayoi-kusama-sanacion-traves-del-arte/17204066/",
+      "title": "GTA VI, ajedrez y una despedida a Tim Curry",
+      "date": "Fri, 28 Aug 2026 15:25:54 GMT",
+      "audio": "https://ztnr.rtve.es/ztnr/17205291.mp3",
+      "webpage": "https://www.rtve.es/play/audios/el-ojo-critico/gta-vi-ajedrez-despedida-tim-curry/17205291/",
       "image": "https://img.rtve.es/imagenes/el-ojo-critico/01785143691893.jpg",
-      "description": "Conocida por sus puntos y sus figuras geométricas repasamos la vida y la obra de la artista japonesa Yayoi Kusama de la mano de Lucía Aguirre comisaria de la última retrospectiva que se hizo en el museo Guggenheim de Bilbao, Yayoi Kusama: desde 1945 hasta hoy. \nAdemás, descubrimos el proceso de creación del cómic Respira con su guionista, Àurea Muñoz Pérez y la ilsutradora  Judit Crehuet. \nEn el pequeño rincón de Laura Fernández leemos Edwin Mullhouse un libro de Steven Millhauser y repasamos las novedades discográficas del otoño con María Taosa. \n\nEscuchar audio",
-      "duration": "00:46:45"
+      "description": "Analizamos el fenómeno del videojuego GTA VI con Manu Martínez, repasamos los estrenos de la semana con Conxita Casanovas y de la mano de la Dra Rosillo hacemos un homanaje al actor Tim Curry en El camino de la desviación. \nAdemás, en el programa de hoy repasamos la relación del ajedrez con la cultura con Julián Valerio director del podcast de RNE Jaquelandia. \n\nEscuchar audio",
+      "duration": "00:47:14"
     }
   },
   {
@@ -203,12 +203,12 @@
     "name": "EL CINE EN LA SER",
     "rss": "https://fapi-top.prisasd.com/podcast/playser/el_cine_en_la_ser/itunestfp/podcast.xml",
     "lastEpisode": {
-      "title": "El Cine en la SER | Las series | 'Toda la verdad de mis mentiras' con Clara Sans",
-      "date": "Thu, 27 Aug 2026 08:00:00 +0200",
-      "audio": "https://prisa-es.mc.tritondigital.com/EL_CINE_EN_LA_SER_SER_PODCAST_327_P/media/mcv/playser/multimedia/20260826/5081702_135303_audio_128.mp3?dest=el_cine_en_la_ser",
+      "title": "El último del verano con nuestros “seres queridos” y lo nuevo de Ridley Scott",
+      "date": "Fri, 28 Aug 2026 07:00:00 +0200",
+      "audio": "https://prisa-es.mc.tritondigital.com/EL_CINE_EN_LA_SER_SER_PODCAST_327_P/media/playser/audio/20268/27/5083125.mp3?dest=el_cine_en_la_ser",
       "image": "https://sdmedia.playser.cadenaser.com/playser/image/20246/05/1717597479200_760.jpeg",
-      "description": "La actriz Clara Sans nos visita para hablar de su nueva miniserie 'Toda la verdad de mis mentiras', la adaptación para Netflix de la novela homónima de Elísabet Benavent. Hablamos de amor, amistades, veranos eternos y sus nuevos proyectos, entre los que destacan un papel protagonista en cine y la segunda temporada de 'Furia'.",
-      "duration": "00:17:57"
+      "description": "Con la tristeza y el adiós del último programa del verano, repasamos la cartelera de la semana. Tras su paso por Cannes llega a los cines, por fin, 'El ser querido', la esperadísima película de Rodrigo Sorogoyen protagonizada por Javier Bardem y Victoria Luengo, el retrato de una compleja relación entre un padre director y una hija actriz. Hay otros estrenos interesantes como la postapocalíptica 'La constelación del perro', la última película de Ridley Scott, encabezada por Jacob Elordi, Josh Brolin, Margaret Qualley y Guy Pearce; y la cuarta entrega de la historia del arqueólogo más querido: Tadeo Jones. Nacional también es la curiosa 'Anoche conquisté Tebas' y si les gusta algo más independiente, 'Erupcja', con Charli XCX al frente. Repasamos, además, su carrera musical y su trayectoria en el cine. Pero esperen, porque también hay series. Llega a Apple TV la segunda temporada de 'Materia Oscura' y hemos hablado con sus protagonistas, Joel Edgerton y Jennifer Connelly. Y al estudio ha venido Clara Sans para presentar la nueva miniserie de Netflix 'Toda la verdad de mis mentiras', que adapta la novela homónima de Elísabet Benavent. Por último, concluimos nuestra serie veraniega \"La conquista del espacio\" charlando sobre basura espacial.",
+      "duration": "00:54:27"
     }
   },
   {
@@ -232,13 +232,13 @@
     "name": "PAR-IMPAR",
     "rss": "https://esradio.libertaddigital.com/par-impar/podcast.xml",
     "lastEpisode": {
-      "title": "Spielberg sabe algo: sus tres películas de extraterrestres dan pistas sobre lo que va a pasar (con Alba Torremocha)",
-      "date": "Thu, 20 Aug 2026 19:21:42 +0200",
-      "audio": "https://api.spreaker.com/v2/episodes/74445463/download.mp3?aw_0_1st.collectionid=par-impar&aw_0_1st.subcat=19",
-      "webpage": "https://esradio.libertaddigital.com/par-impar/2026-08-20/spielberg-sabe-algo-sus-tres-peliculas-de-extraterrestres-dan-pistas-sobre-lo-que-va-a-pasar-con-alba-torremocha-7450379/?utm_source=rss&utm_medium=feed&utm_campaign=Par-Impar",
+      "title": "&#039;La Bella y la Bestia&#039; (1991) con Enrique Gato: cuando Disney no necesitaba pedir perdón",
+      "date": "Fri, 28 Aug 2026 16:18:43 +0200",
+      "audio": "https://api.spreaker.com/v2/episodes/74735416/download.mp3?aw_0_1st.collectionid=par-impar&aw_0_1st.subcat=19",
+      "webpage": "https://esradio.libertaddigital.com/par-impar/2026-08-28/la-bella-y-la-bestia-1991-con-enrique-gato-cuando-disney-no-necesitaba-pedir-perdon-7452520/?utm_source=rss&utm_medium=feed&utm_campaign=Par-Impar",
       "image": "https://s1.staticld.com//2019/10/30/par-impar-2.jpg",
-      "description": "Con la autora de bandas sonoras Alba Torremocha hablamos de Williams, las pelis de extraterrestres de Spielberg y si todo va a pasar de verdad.\n\nEn esta nueva entrega cinematográfica en esRadio, los presentadores Juanma González y Dani Palacios cuentan con la participación especial de la compositora de bandas sonoras Alba Torremocha. Durante la conversación, analizan en profundidad la trilogía de películas sobre extraterrestres dirigidas por Steven Spielberg: Encuentros en la tercera fase, E.T., el extraterrestre y un tercer análisis que vinculan a las recientes revelaciones ufológicas en el Congreso de los Estados Unidos. Los tertulianos debaten sobre si el célebre director utilizó estas producciones como una preparación o advertencia para la humanidad ante una futura revelación real.\n\nEl papel de la música, compuesta magistralmente por John Williams, es uno de los temas centrales del programa. Alba Torremocha destaca cómo Williams y Spielberg logran establecer una comunicación no verbal que trasciende el lenguaje ordinario. La música no es un mero adorno, sino la base misma de la empatía en la pantalla. Un claro ejemplo es el célebre motivo de cinco notas en Encuentros en la tercera fase, que sirve como el único puente de entendimiento entre los seres humanos y los visitantes alienígenas, demostrando que el arte puede ser un lenguaje universal.\n\nOtro punto de debate es la evolución de la figura de la autoridad y del Gobierno a lo largo de las películas de Spielberg. En la primera de ellas, personajes como el interpretado por François Truffaut buscan activamente la comunicación y el entendimiento científico. Sin embargo, en E.T., el extraterrestre, el poder estatal se vuelve frío y amenazante, representado por científicos sin rostro que buscan diseccionar lo desconocido. Esta deshumanización gubernamental culmina en planteamientos donde el control de la información es absoluto, reflejando la desconfianza del director hacia las instituciones políticas.\n\nLos participantes analizan también la figura del niño como el receptor ideal del contacto extraterrestre. Personajes como Barry o Elliot muestran una pureza emocional y una capacidad de amar sin condiciones que los adultos han perdido. Para Spielberg, los niños no sienten el miedo instintivo ante lo diferente, sino una curiosidad innata que facilita la conexión empática. Esta perspectiva subraya la idea moral de que la humanidad debe recuperar su inocencia y su capacidad de escuchar para afrontar los grandes cambios que están por venir.\n\nPor el lado profesional, Alba Torremocha comparte valiosos detalles sobre su trayectoria en el sector del cine, habiendo trabajado en proyectos tanto en España como en Estados Unidos. La invitada analiza el proceso de colaboración entre los compositores y los directores de cine, señalando las diferencias de método que existen en la industria actual. Explica que, en muchas ocasiones, los cineastas utilizan referencias temporales de otras bandas sonoras para marcar el ritmo, aunque el verdadero reto consiste en capturar la esencia emocional de la historia y traducirla en notas musicales que aporten una nueva dimensión psicológica a las escenas de la película.\n\nLa charla concluye con una reflexión sobre la pérdida de personalidad de las bandas sonoras contemporáneas, que en ocasiones se limitan a ser meras texturas ambientales de fondo. Frente a esta tendencia, se reivindica el legado de compositores clásicos que, como Williams, dotaban a cada película de una identidad sonora única y memorable. Para los integrantes de esRadio, recuperar el valor de la música en el cine no es solo una cuestión de nostalgia, sino una necesidad para mantener viva la magia y la capacidad de conmover al espectador que Spielberg siempre defendió en sus historias de ciencia ficción.",
-      "duration": "01:17:33"
+      "description": "En compañía del cineasta Enrique Gato, que estrena nueva entrega de Tadeo Jones, hablamos de este gran clásico de Disney de 1991.\n\nEl programa de esRadio recibe esta semana a una de las figuras más importantes de la animación en España, el director Enrique Gato. Con motivo del inminente estreno de la nueva entrega de la saga Tadeo Jones, el cineasta se une a los micrófonos para analizar uno de los grandes hitos de la Walt Disney Company que marcó un antes y un después en su carrera y en su vocación: el clásico de 1991, La Bella y la Bestia. Gato rememora cómo este largometraje de animación tradicional supuso el punto de inflexión definitivo que le impulsó a querer comprender los entresijos de esta disciplina artística.\n\nDurante la conversación, se destaca el extraordinario impacto que tuvo La Bella y la Bestia en el resurgir de la productora norteamericana a principios de los años noventa. Junto a títulos inolvidables como La Sirenita o El Rey León, la película consolidó una edad de oro de la animación caracterizada por la excelencia artística y técnica. Enrique Gato detalla la maestría del dibujo a mano y la introducción pionera de herramientas digitales, un trabajo titánico que requería la colaboración de cientos de artistas capaces de dotar de alma a cada fotograma.\n\nUno de los aspectos técnicos más fascinantes abordados en el audio es la escena del baile en el gran salón, donde se fusionó de forma magistral la animación en dos dimensiones con los primeros escenarios generados por ordenador --CGI--. Esta mezcla revolucionaria permitió realizar un movimiento de cámara virtual similar al de una grúa cinematográfica, algo completamente inédito para la época que asombró tanto a los profesionales del sector como al público general. Gato reflexiona sobre cómo, a pesar de la evolución tecnológica y del dominio actual de la animación digital en tres dimensiones, los tiempos de producción de un largometraje siguen rondando los cuatro o cinco años debido al carácter artesanal de este arte.\n\nEl director de Tadeo Jones explica detalladamente que en el mundo de la animación no existe margen para la espontaneidad o la improvisación durante el rodaje. Todo el metraje de la película debe estar meticulosamente planificado en el storyboard antes de comenzar la producción real, ya que cada minuto de metraje animado es sumamente costoso. Los guionistas procedentes de producciones de acción real a menudo se topaban con la frustración de ver cómo sus ideas debían adaptarse estrictamente a las posibilidades expresivas de los animadores, quienes actúan como los verdaderos constructores de la acción dramática y emocional de la historia.\n\nLa vertiente musical de La Bella y la Bestia es clave para entender su éxito imperecedero. La película se concibió bajo la estructura de un auténtico musical de Broadway, con composiciones de Alan Menken y letras de Howard Ashman que lograban expresar la psicología y evolución de los personajes sin caer en la cursilería. Temas memorables como Qué festín o la balada principal interpretada por Angela Lansbury elevaron el largometraje a la categoría de obra de arte. Enrique Gato reivindica la fuerza de estas composiciones y reconoce que su gran reto como director es alcanzar ese nivel de emoción orgánica en sus propios proyectos.\n\nFinalmente, los participantes en el programa elogian el extraordinario doblaje al español de la cinta, dirigido por Camilo García y que contó con voces de la talla de Miguel Ángel Jenner y Jordi Brau. Esta versión en castellano sigue siendo la preferida de muchos espectadores debido a la asombrosa calidad de las interpretaciones, que rivalizan e incluso superan a las originales en matices emotivos. Enrique Gato concluye la entrevista animando a los oyentes a buscar los guiños y homenajes ocultos --los conocidos como easter eggs-- que ha introducido en su nueva película, prometiendo que el público español encontrará referencias muy cercanas a su cultura.",
+      "duration": "01:25:00"
     }
   },
   {
