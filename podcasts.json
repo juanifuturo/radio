@@ -358,5 +358,12 @@
       "description": "Nuevo mes, nueva entrega de Los Aristócratas para terminar el verano lo más fresquito posible. En esta ocasión hablamos de las comedias involuntarias o no pretendidas en el cine. Esas películas que, a pesar de no pretenderlo, salieron risibles. Unas mejores que otras, algunas incluso tremendamente disfrutables, pero en el fondo, equivocadas.",
       "duration": "02:10:18"
     }
+  },
+  {
+    "slot": 25,
+    "link": "https://distritoapache.contrabanda.org/",
+    "name": "DISTRITO APACHE",
+    "rss": "https://www.ivoox.com/podcast-distrito-apache_fg_f1499_filtro_1.xml",
+
   }
 ]
