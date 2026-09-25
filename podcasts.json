@@ -22,13 +22,13 @@
     "rss": "http://api.rtve.es/api/programas/107070/audios.rss",
     "color": "#F5F5F5",
     "lastEpisode": {
-      "title": "Raíz de 5 - PROBLEMAS: Navier-Stokes, IA y la polémica del milenio - 13/09/26",
-      "date": "Sun, 13 Sep 2026 15:00:49 GMT",
-      "audio": "https://ztnr.rtve.es/ztnr/17222622.mp3",
-      "webpage": "https://www.rtve.es/play/audios/raiz-de-5/raiz-5-problemas-navier-stokes-ia-polemica-del-milenio/17222622/",
+      "title": "Raíz de 5 - MEDIDA: el informe PISA y sus \"pisotones\" - 20/09/26",
+      "date": "Sun, 20 Sep 2026 14:35:00 GMT",
+      "audio": "https://ztnr.rtve.es/ztnr/17231453.mp3",
+      "webpage": "https://www.rtve.es/play/audios/raiz-de-5/raiz-5-medida-informe-pisa-pisotones/17231453/",
       "image": "https://img.rtve.es/imagenes/raiz-de-5/1621618405371.jpg",
-      "description": "Esta semana la palabra es “problema”, y hablamos de uno de los problemas matemáticos más importantes de nuestro tiempo: las ecuaciones de Navier-Stokes. OpenAI asegura haber encontrado con inteligencia artificial una posible solución a uno de los Problemas del Milenio, después de casi 90 años abierto. Explicamos qué dicen realmente estas ecuaciones, qué significa resolver el problema y por qué todavía hay que ser prudentes antes de darlo por cerrado. Hablamos también de los matemáticos españoles Diego Córdoba y Luis Martínez-Zoroa, cuyas ideas han sido fundamentales para llegar hasta aquí, y de la polémica sobre la autoría, los datos y el papel de la IA en la investigación matemática. Nos acompaña Patricia Ruiz Guevara, matemática y periodista científica de El Confidencial, para entender qué ha ocurrido y hasta qué punto estamos ante un momento histórico para las matemáticas. Seguimos la siguiente semana, por inducción, n+1...\n\nEscuchar audio",
-      "duration": "00:23:55"
+      "description": "Esta semana la palabra es “medida”. Hablamos de medir, de tomar medidas y de tener mesura para interpretar los datos. Nos detenemos en los resultados del informe PISA 2025 y en la caída de España en matemáticas y lectura, comparándola con la media de la OCDE y con otros países de nuestro entorno. Hablamos de pantallas, inteligencia artificial, desigualdad, profesorado, comprensión lectora y de por qué una correlación no basta para encontrar culpables. Nos acompaña la matemática y estadística Anabel Forte para ayudarnos a entender qué nos dicen realmente los datos y qué no podemos concluir de ellos. Porque quizá PISA no sea solo un examen para los estudiantes, sino también para los adultos que intentamos explicarlo.\nSeguimos la siguiente semana, por inducción, n+1...\n\nEscuchar audio",
+      "duration": "00:26:08"
     }
   },
   {
@@ -143,13 +143,13 @@
     "name": "TERRITORIO 9",
     "rss": "http://www.rtve.es/api/programas/139010/audios.rss",
     "lastEpisode": {
-      "title": "Territorio 9 - 'Voy a partirle la cara a mi jefe' (Grafito) de José Ares y Abel Alves | Novedades del mes con Bamf! - 23/09/26",
-      "date": "Wed, 23 Sep 2026 13:00:00 GMT",
-      "audio": "https://ztnr.rtve.es/ztnr/17237274.mp3",
-      "webpage": "https://www.rtve.es/play/audios/territorio-9/voy-partirle-cara-jefe-grafito-jose-ares-abel-alves-novedades-del-mes-bamf-23-09-26/17237274/",
+      "title": "Territorio 9 - Ana Langeheldt, artista urbana | Historia del Premio Nacional del Cómic con Fernando Llor - 24/09/26",
+      "date": "Thu, 24 Sep 2026 13:00:00 GMT",
+      "audio": "https://ztnr.rtve.es/ztnr/17239052.mp3",
+      "webpage": "https://www.rtve.es/play/audios/territorio-9/ana-langeheldt-artista-urbana-historia-del-premio-nacional-del-comic-fernando-llor-24-09-26/17239052/",
       "image": "https://img.rtve.es/imagenes/territorio-9/01756458872388.jpg",
-      "description": "En el programa 613, recibimos en Territorio 9 a José Ares y Abel Alves. Son los autores de 'Voy a partirle la cara a mi jefe', editado por Grafito. En este cómic nos proponen solucionar nuestros problemas laborales de una forma políticamente incorrecta, tal y como nos indica el título de la obra. También está con nosotros Bamf! En esta ocasión, nos trae como recomendaciones 'Petit' (Tengu), 'Astral Panic' (La Cúpula) o 'Ya no llama nadie' (Astiberri) y una para editores: 'A mischief of magpies'. Además, hablamos con Irene Rivas, directora del programa Zum de Radio 3. Nos cuenta las novedades de cine de animación que se presentan en el Festival de Cine de San Sebastián.\n\nEscuchar audio",
-      "duration": "00:58:42"
+      "description": "Llegamos al programa 614. En esta ocasión, visita Territorio 9 Ana Langeheldt, también conocida como Lahe178. Es la artista urbana encargada de diseñar el cartel de las Fiestas de Primavera, la Semana Santa y la Feria de Abril en Sevilla. También tenemos a Fernando Llor con su sección sobre actualidad. En esta ocasión, hace un repaso por las distintas personas ganadoras del Premio Nacional del Cómic. Además, hablamos con Álvaro Varograff, organizador de Guindazine, la feria de fanzines, cómics, ilustraciones y autoediciones que se celebra el 26 y 27 de septiembre en el Mercado de la Guindalera en Madrid.\n\nEscuchar audio",
+      "duration": "00:58:38"
     }
   },
   {
@@ -173,13 +173,13 @@
     "name": "EL OJO CRÍTICO",
     "rss": "http://www.rtve.es/api/programas/1957/audios.rss",
     "lastEpisode": {
-      "title": "El Ojo Crítico - Oriol Pla recibe el Premio Nacional de Teatro 2026",
-      "date": "Wed, 23 Sep 2026 16:52:46 GMT",
-      "audio": "https://ztnr.rtve.es/ztnr/17237599.mp3",
-      "webpage": "https://www.rtve.es/play/audios/el-ojo-critico/oriol-pla-premio-nacional-teatro-2026/17237599/",
+      "title": "El Ojo Crítico - En directo desde el Festival de cine de San Sebastián",
+      "date": "Thu, 24 Sep 2026 15:44:57 GMT",
+      "audio": "https://ztnr.rtve.es/ztnr/17239114.mp3",
+      "webpage": "https://www.rtve.es/play/audios/el-ojo-critico/ojo-critico-directo-desde-festival-cine-san-sebastian/17239114/",
       "image": "https://img.rtve.es/imagenes/el-ojo-critico/01785143691893.jpg",
-      "description": "Oriol Pla recibe el Premio Nacional de Teatro 2026. El actor conoce la noticia en el Festival de San Sebastián, donde presenta Esta soledad, ópera prima de Javier Giner. Premio El Ojo Crítico de Cine 2022, Pla comparte en el programa sus primeras impresiones tras recibir este nuevo galardón.\nDesde San Sebastián, Conxita Casanovas repasa la sexta jornada del festival, marcada por la presencia de Brad Pitt, que presenta En el corazón de la bestia, y por títulos que aspiran a la Concha de Oro, como The Debut, dirigida y protagonizada por Jesse Eisenberg.\nAdemás, Luis Mario presenta Libro azul con mosca, 28 relatos en los que juega con lo cotidiano, lo excepcional y las posibilidades del lenguaje. Abordamos la polémica sobre el supuesto uso de inteligencia artificial en Era esto o morir, de Thelyson Orelien, y nos acercamos a Escribidores, en Cáceres.\nMaría Pagés presenta Bilbao Square, su espectáculo más personal, en el que recorre a través del flamenco su crecimiento personal y profesional. Inko Martín repasa la actualidad de la Orquesta y Coro RTVE y Pedro Torrijos recupera la sorprendente historia de los Infantoriums, las exhibiciones de bebés prematuros en incubadoras que contribuyeron a salvar miles de vidas.\n\nEscuchar audio",
-      "duration": "00:46:59"
+      "description": "El Ojo Crítico se traslada al Festival de Cine de San Sebastián para descubrir las películas, las historias y los protagonistas de esta edición. Con Conxita Casanovas como guía, recorremos las diferentes secciones del certamen y conversamos con José Corbacho sobre Burundanga, la adaptación cinematográfica de la obra de Jordi Galceran, y sobre el lugar que ocupa el humor en el cine.\nNos acercamos a La voz quebrada, documental de Manuel Menchón participado por RTVE que reconstruye los últimos meses de Federico García Lorca y su relación con Juan Ramírez de Lucas a partir de cartas, diarios, recuerdos e imágenes inéditas. Hablamos con su director y con Francesco Carril, que pone voz al joven amante del poeta.\nEn Sección Oficial descubrimos Sants, de Mikel Gurrea, una historia protagonizada por Vicky Luengo que se adentra en el mundo del robo de arte sacro y aborda también los cuidados, la pérdida y las relaciones maternofiliales. Conversamos con el director y con Eulàlia Ramon, una de sus protagonistas.\nAnalizamos además la presencia de las películas participadas por RTVE en el festival con José Pastor, jefe del Área de Cine y Ficción de RTVE, José Gervasio Iglesias, subdirector y Eduardo Fernández, director corporativo, para conocer cómo se seleccionan los proyectos y cómo conviven grandes producciones y películas de carácter más independiente.\nY Dani Gallego conversa con la cineasta María Aparicio sobre A veces me entra tristeza, otras veces rebelión, una película que cruza una historia íntima con cuestiones como el trabajo, la migración y la precariedad.\n\nEscuchar audio",
+      "duration": "00:44:57"
     }
   },
   {
@@ -203,12 +203,12 @@
     "name": "EL CINE EN LA SER",
     "rss": "https://fapi-top.prisasd.com/podcast/playser/el_cine_en_la_ser/itunestfp/podcast.xml",
     "lastEpisode": {
-      "title": "El fenómeno de 'Slow Horses' con Gary Oldman y la fascinación por las series de espías",
-      "date": "Mon, 21 Sep 2026 08:00:00 +0200",
-      "audio": "https://prisa-es.mc.tritondigital.com/EL_CINE_EN_LA_SER_SER_PODCAST_327_P/media/playser/audio/20269/16/5112102.mp3?dest=el_cine_en_la_ser",
+      "title": "'La bola negra': los Javis convierten a Lorca y la memoria queer en el evento del año",
+      "date": "Fri, 25 Sep 2026 07:00:00 +0200",
+      "audio": "https://prisa-es.mc.tritondigital.com/EL_CINE_EN_LA_SER_SER_PODCAST_327_P/media/playser/audio/20269/24/5125534.mp3?dest=el_cine_en_la_ser",
       "image": "https://sdmedia.playser.cadenaser.com/playser/image/20246/05/1717597479200_760.jpeg",
-      "description": "Acaba de estrenar su sexta temporada y ya está renovada para una octava. El fenómeno de ‘Slow Horses’ sigue imparable y, en este episodio, nos detenemos a analizarlo de la mano de su protagonista, Gary Oldman. Con él comentamos el éxito de la serie de espías de Apple TV y por qué nos fascinan estos personajes turbios y sus secretos.",
-      "duration": "00:15:25"
+      "description": "Ya está en cines ‘La bola negra’, el evento cinematográfico del año. Javier Calvo y Javier Ambrossi han conseguido que su ambiciosa producción sobre la obra inacabada de Lorca, la memoria queer y las heridas de la Guerra Civil sea un fenómeno en todo el mundo. En este episodio la analizamos a fondo, charlamos con los directores y también escuchamos a Brad Pitt, protagonista en el Festival de San Sebastián y en la cartelera con ‘El corazón de la bestia’. Ademas, celebramos el reestreno del documental de Trueba y reunimos a Pablo Larraín y Mariana Enriquez por ‘Mis muertos tristes’, la serie que ya se puede ver en Netflix.",
+      "duration": "00:57:32"
     }
   },
   {
@@ -232,13 +232,13 @@
     "name": "PAR-IMPAR",
     "rss": "https://esradio.libertaddigital.com/par-impar/podcast.xml",
     "lastEpisode": {
-      "title": "Vacaciones Santillana: popurrí de lo último que hemos visto en verano",
-      "date": "Fri, 18 Sep 2026 12:21:04 +0200",
-      "audio": "https://api.spreaker.com/v2/episodes/75205128/download.mp3?aw_0_1st.collectionid=par-impar&aw_0_1st.subcat=19",
-      "webpage": "https://esradio.libertaddigital.com/par-impar/2026-09-18/vacaciones-santillana-popurri-de-lo-ultimo-que-hemos-visto-en-verano-7462130/?utm_source=rss&utm_medium=feed&utm_campaign=Par-Impar",
+      "title": "&#039;El Bosque&#039; (2004) con Hugo Stuven: la obra incomprendida de Shyamalan",
+      "date": "Fri, 25 Sep 2026 11:33:18 +0200",
+      "audio": "https://api.spreaker.com/v2/episodes/75351243/download.mp3?aw_0_1st.collectionid=par-impar&aw_0_1st.subcat=19",
+      "webpage": "https://esradio.libertaddigital.com/par-impar/2026-09-25/el-bosque-2004-con-hugo-stuven-la-obra-incomprendida-de-shyamalan-7465733/?utm_source=rss&utm_medium=feed&utm_campaign=Par-Impar",
       "image": "https://s1.staticld.com//2019/10/30/par-impar-2.jpg",
-      "description": "Programa variado en el que Juanma y Dani conversan sobre las últimas películas que han visto durante sus respectivas vacaciones de verano. \n\nEn este nuevo episodio de Par en Par, emitido en esRadio, Juanma González y Dani Palacios regresan con su habitual frescura para repasar las producciones cinematográficas que han marcado sus vacaciones estivales. La charla comienza con un análisis de The Surfer, una película de intriga psicológica ambientada en Australia y protagonizada por el incombustible Nicolas Cage. Los presentadores coinciden en que, a pesar de ser una propuesta un tanto delirante y predecible a partir de la mitad de su metraje, la entrega física y el carisma del actor estadounidense aportan un valor añadido indiscutible a la cinta, salvando algunos de sus momentos más flojos.\n\nPosteriormente, el foco de atención se traslada al reciente trabajo del cineasta británico Guy Ritchie titulado In the Grey. Protagonizada por Henry Cavill y Jake Gyllenhaal, la película es objeto de un debate sobre el desgaste del estilo característico del director. Los críticos señalan que, aunque la tensión está bien administrada y resulta entretenida, la fórmula del director empieza a mostrar signos de fatiga. Aprovechando el análisis, recuerdan su anterior obra, The Covenant, y elogian la versatilidad de la Comunidad Valenciana como plató de rodaje, demostrando la pujanza del sector del cine en España al transformar paisajes alicantinos en la abrupta geografía afgana.\n\nLa nostalgia de los años noventa llega de la mano de Prácticamente Magia, la recordada comedia de brujas protagonizada por Sandra Bullock y Nicole Kidman. Con motivo de los rumores sobre una posible secuela, los locutores rememoran los puntos fuertes de la película original dirigida por Griffin Dunne. A pesar de que en su estreno no gozó de un gran éxito comercial, destacan cómo el paso del tiempo la ha convertido en un título de culto gracias a la excelente química entre sus protagonistas y a una atmósfera que combina con acierto el drama familiar y la comedia fantástica.\n\nEl cine de terror patrio tiene su espacio con El Nido, una producción de Filmax encabezada por Michelle Jenner. Dedicada a la memoria de Julio Fernández, la película destaca por su atmósfera opresiva y rural, que los presentadores comparan formalmente con cintas como The Witch. Aunque la trama transita por senderos predecibles dentro del subgénero del melodrama de terror, Juanma González valora positivamente su factura visual y el esfuerzo por construir una tensión latente, augurando un buen recorrido para la producción en el mercado de las plataformas digitales.\n\nEn el ámbito del cine independiente, Dani Palacios destaca la grata sorpresa que ha supuesto Luger, una modesta película española dirigida por Bruno Martín. Con un reparto liderado por David Said, la historia se desarrolla por completo en un polígono industrial, adoptando una narrativa criminal deudora de los primeros trabajos del cine británico de gángsters. Los presentadores elogian la crudeza y autenticidad de sus diálogos, así como la capacidad de su director para retratar con fidelidad el ambiente de la periferia urbana española sin caer en la caricatura.\n\nPor otro lado, los locutores dedican grandes elogios a la producción argentina El Robo del Siglo (2020), protagonizada por los reconocidos actores Guillermo Francella y Diego Peretti. Basada en el famoso atraco real a una sucursal bancaria, la cinta es calificada como excelente por su equilibrio entre el suspense y el humor inteligente. Durante la conversación, se destaca el talento natural del cine argentino para dar vida a personajes memorables y para mantener un ritmo ágil que atrapa al espectador desde el primer minuto de metraje.\n\nPara concluir, se analiza El Drama, un proyecto amparado por la productora A24 con Zendaya y Robert Pattinson al frente del reparto. Tras debatir sobre el cinismo en las relaciones de pareja y las expectativas que genera esta producción, los críticos cierran el programa con sus habituales teorías cinematográficas. En esta ocasión, vinculan el diseño de producción de películas míticas como El Ansia o La Escalera de Jacob con el talento del director artístico Brian Morris, reivindicando la importancia de la estética visual por encima, en ocasiones, del propio guion.",
-      "duration": "01:30:57"
+      "description": "El realizador de 'Solo' analiza el trasfondo político y la madurez de una pieza de culto que fue castigada por las expectativas del público.\n\nEn este nuevo episodio del pódcast cinematográfico de esRadio, los presentadores Juanma González y Dani Palacios reciben a un invitado muy especial: el director de cine Hugo Stuven. La conversación gira en torno a su último largometraje, El Nido, protagonizado por Michelle Jenner, y sirve de puente para analizar en profundidad uno de los grandes clásicos del suspense moderno: la película El Bosque, dirigida por M. Night Shyamalan en el año 2004.\n\nLos tertulianos recuerdan el gran impacto y la posterior división de opiniones que generó El Bosque en su estreno. El film fue comercializado erróneamente como una película de terror convencional, lo que frustró a muchos espectadores que esperaban un festival de sustos al estilo de El Sexto Sentido. Sin embargo, con el paso de los años y sucesivos visionados, la cinta ha sido reivindicada como una obra maestra del drama psicológico y el suspense, donde el verdadero monstruo no es sobrenatural sino humano.\n\nUno de los aspectos técnicos más alabados durante la charla es la soberbia dirección de fotografía a cargo de Roger Deakins. Stuven y los presentadores detallan cómo la película utiliza un estricto código de color para narrar la historia de forma subliminal: el color amarillo representa la protección y la seguridad de la aldea, mientras que el color rojo simboliza el peligro, la transgresión y la atracción hacia lo prohibido. Esta meticulosa planificación visual dota a la obra de un aire pictórico casi invernal.\n\nHugo Stuven destaca los paralelismos temáticos entre El Bosque y su propio largometraje, El Nido. Ambas películas abordan el concepto del miedo heredado y la sobreprotección paterna. En la obra de Shyamalan, los fundadores de la aldea crean una mentira colectiva en forma de monstruos para aislar a sus hijos de la maldad del mundo exterior, construyendo un nido metafórico. Stuven reflexiona sobre cómo esta sobreprotección y el aislamiento voluntario acaban engendrando, paradójicamente, la misma violencia de la que intentan huir.\n\nDurante la conversación se analiza la economía narrativa del director indio, capaz de transmitir complejas emociones y giros de guion a través de la puesta en escena, sin necesidad de recurrir a diálogos explicativos. Se resalta el uso de la elipsis visual y la planificación de los planos por encima del montaje frenético. Los colaboradores comparan este estilo pausado y elegante con la forma en que los directores clásicos utilizaban la cámara para guiar la mirada del espectador y generar una atmósfera asfixiante.\n\nEl análisis actoral se detiene en el personaje de Noah, interpretado de forma brillante por Adrien Brody. Los tertulianos comentan cómo el personaje más inocente y vulnerable de la comunidad es el que termina cometiendo el acto de violencia más terrible, lo que demuestra la tesis del film sobre la inevitabilidad de la maldad humana. También se elogia el trabajo de Joaquin Phoenix y Bryce Dallas Howard, quienes logran transmitir una de las tramas románticas más sinceras de la filmografía del director.\n\nStuven comparte algunos de los entresijos técnicos del rodaje de El Nido, destacando su preferencia por la planificación cuidada y los planos secuencia complejos sobre el uso abusivo de la cámara en mano. En particular, describe un plano hitchcockiano que atraviesa un espejo para rodar a los protagonistas reflejados, una proeza técnica que requirió mover paredes y cámaras de gran tonelaje, evidenciando su búsqueda de un cine elegante y sofisticado que beba de los grandes maestros del suspense.\n\nPara finalizar, Hugo Stuven revela detalles sobre sus futuros proyectos profesionales, que incluyen una serie documental para la plataforma Movistar y la escritura de una nueva película de terror psicológico en colaboración con la actriz Michelle Jenner. El programa se despide con su habitual recomendación musical, en esta ocasión el tema de la banda estadounidense The White Buffalo, invitando a los oyentes a continuar la conversación en las plataformas digitales de esRadio.",
+      "duration": "01:19:53"
     }
   },
   {
@@ -321,8 +321,8 @@
     "name": "SOFÁ SONORO",
     "rss": "https://fapi-top.prisasd.com/podcast/playser/sofa_sonoro/itunestfp/podcast.xml",
     "lastEpisode": {
-      "title": "El lado seductor del rock francés",
-      "date": "Wed, 23 Sep 2026 21:12:18 +0200",
+      "title": "Jacques Dutronc y el lado seductor del rock francés",
+      "date": "Wed, 23 Sep 2026 21:12:00 +0200",
       "audio": "https://prisa-es.mc.tritondigital.com/SOFA_SONORO_SER_PODCAST_594_P/media/playser/audio/20269/23/5124441.mp3?dest=sofa_sonoro",
       "image": "https://sdmedia.playser.cadenaser.com/playser/image/20253/11/1741703584557_191.jpeg",
       "description": "Escucha el episodio de esta semana con Josue Coello, Lucía Taboada y Alfonso Cardenal.",
@@ -365,13 +365,13 @@
     "name": "DISTRITO APACHE",
     "rss": "https://www.ivoox.com/podcast-distrito-apache_fg_f1499_filtro_1.xml",
     "lastEpisode": {
-      "title": "01 09 2026 Distrito Apache",
-      "date": "Thu, 03 Sep 2026 18:07:09 +0000",
-      "audio": "https://archive.org/download/20260901-distritoapache/20260901-distritoapache.mp3",
-      "webpage": "https://distritoapache.contrabanda.org/2026/09/03/01-09-2026-distrito-apache/",
+      "title": "08 09 2026 Distrito Apache",
+      "date": "Thu, 10 Sep 2026 15:16:07 +0000",
+      "audio": "https://archive.org/download/20260908-distritoapache/20260908-distritoapache.mp3",
+      "webpage": "https://distritoapache.contrabanda.org/2026/09/10/08-09-2026-distrito-apache/",
       "image": "https://distritoapache.contrabanda.org/files/2026/04/distritoapache.jpg",
-      "description": "Comenzamos el mes de septiembre con la visita de DJ B.Ros, activista en el ámbito del Breaking de la escena de Barcelona, miembro de Furious Styles Crew, productor musical con 2 referencias editadas en formato 7″ y DJ prolífico. Conversamos con él sobre el baile, las competiciones, los platos, el coleccionismo y las máquinas de […]",
-      "duration": "1:33:02"
+      "description": "La nutrida selección musical de esta semana viene compuesta de todas estas referencias: M. LeCrêpe x Pato ta Panda – Juan Moneo vs El Torta (pr. DJ Pata) Queen Herawin x PA. Dre – Lucid Dream OT The Real – Gave away (pr. Nickel Plated) Trevor Lang – Stigmata ft 38 Spesh & Teek Hall […]",
+      "duration": "1:29:59"
     }
   }
 ]
