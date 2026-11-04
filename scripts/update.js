@@ -1,4 +1,3 @@
-```javascript
 const Parser = require("rss-parser");
 const fs = require("fs");
 
@@ -125,4 +124,3 @@ async function update() {
 }
 
 update();
-```
