@@ -8,12 +8,9 @@ const podcasts = JSON.parse(
 );
 
 // Convierte la duración del RSS a segundos.
-// Admite formatos como 180, 03:00 o 01:25:30.
 function duracionEnSegundos(duracion) {
 
-    if (!duracion) {
-        return 0;
-    }
+    if (!duracion) return 0;
 
     if (typeof duracion === "number") {
         return duracion;
@@ -21,9 +18,7 @@ function duracionEnSegundos(duracion) {
 
     const partes = String(duracion).split(":").map(Number);
 
-    if (partes.some(Number.isNaN)) {
-        return 0;
-    }
+    if (partes.some(Number.isNaN)) return 0;
 
     if (partes.length === 3) {
         return partes[0] * 3600 + partes[1] * 60 + partes[2];
@@ -38,6 +33,18 @@ function duracionEnSegundos(duracion) {
     }
 
     return 0;
+}
+
+// Devuelve el episodio más reciente que supera una duración mínima.
+function buscarEpisodioLargo(episodios, duracionMinima) {
+
+    return episodios
+        .filter(episodio =>
+            duracionEnSegundos(episodio.itunes?.duration) > duracionMinima
+        )
+        .sort((a, b) =>
+            new Date(b.pubDate || 0) - new Date(a.pubDate || 0)
+        )[0] || null;
 }
 
 async function update() {
@@ -56,31 +63,40 @@ async function update() {
             }
 
             let latest;
+            const nombre = podcast.name.toLowerCase();
 
-            // Tratamiento especial para La Cultureta.
-            if (podcast.name.toLowerCase().includes("cultureta")) {
+            if (nombre.includes("cultureta")) {
 
-                const episodiosLargos = feed.items
+                // La Cultureta: 45 minutos o más.
+                latest = feed.items
                     .filter(episodio =>
                         duracionEnSegundos(episodio.itunes?.duration) >= 45 * 60
                     )
                     .sort((a, b) =>
                         new Date(b.pubDate || 0) - new Date(a.pubDate || 0)
-                    );
+                    )[0] || null;
 
-                if (episodiosLargos.length === 0) {
+            } else if (nombre.includes("sofá sonoro") || nombre.includes("sofa sonoro")) {
 
-                    console.log("⚠ No hay episodios largos de La Cultureta. Se conserva el anterior.");
-                    continue;
+                // Sofá Sonoro: más de 30 minutos.
+                latest = buscarEpisodioLargo(feed.items, 30 * 60);
 
-                }
+            } else if (nombre.includes("de película") || nombre.includes("de pelicula")) {
 
-                latest = episodiosLargos[0];
+                // De Película: más de 1 hora y 30 minutos.
+                latest = buscarEpisodioLargo(feed.items, 90 * 60);
 
             } else {
 
-                // Para el resto de podcasts, comportamiento original.
+                // Resto de podcasts: comportamiento original.
                 latest = feed.items[0];
+
+            }
+
+            if (!latest) {
+
+                console.log("⚠ No hay episodios que cumplan el filtro. Se conserva el anterior:", podcast.name);
+                continue;
 
             }
 
