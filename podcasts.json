@@ -6,13 +6,13 @@
     "rss": "https://sinaudiencia.com/feed/podcast/",
     "color": "#F5F5F5",
     "lastEpisode": {
-      "title": "Programa 1235: Godzilla Minus Zero, 11, Patrick Stewart,  TerrorMolins 2026 y Dracula",
-      "date": "Sat, 07 Nov 2026 14:36:32 +0000",
-      "audio": "https://archive.org/download/20261104-sinaudiencia/20261104-sinaudiencia.mp3",
-      "webpage": "https://sinaudiencia.com/programa-1235/",
+      "title": "Programa 1236: Especial TerrorMolins 2026",
+      "date": "Mon, 16 Nov 2026 11:57:02 +0000",
+      "audio": "https://archive.org/download/20261114-sinaudiencia/20261114-sinaudiencia.mp3",
+      "webpage": "https://sinaudiencia.com/programa-1236/",
       "image": "http://www.sinaudiencia.com/wp-content/uploads/powerpress/Logo-iTunes.jpg",
-      "description": "Un grupo de chavales de excursión por el Pirineo, se queda aislado en un refugio debido a una tormenta. Cuando los monitores hacen recuento, se dan cuenta que hay un niño de más, alto, con acento de Europa central, ojitos enrojecidos y un curioso abrigo-capa. En mitad de la noche, un estruendo proveniente del exterior […]",
-      "duration": "2:07:00"
+      "description": "El 14 de Noviembre de 2026, un grupo de podcasters se desplazó a la localidad de Molins de Rei para realizar una grabación especial en torno a la figura de “La bruja de La Peni”, una monja del pueblo acusada de vampirismo y secuestro de recién nacidos, y ejecutada en 1755 por un tribunal eclesiástico. […]",
+      "duration": "2:20:14"
     }
   },
   {
@@ -22,13 +22,13 @@
     "rss": "http://api.rtve.es/api/programas/107070/audios.rss",
     "color": "#F5F5F5",
     "lastEpisode": {
-      "title": "Raíz de 5 - PUENTE: Las matemáticas que nos sostienen - 08/11/26",
-      "date": "Sun, 08 Nov 2026 16:00:37 GMT",
-      "audio": "https://ztnr.rtve.es/ztnr/17302925.mp3",
-      "webpage": "https://www.rtve.es/play/audios/raiz-de-5/raiz-5-matematicas-sostienen/17302925/",
+      "title": "Raíz de 5 - DESIGUAL: de los números a la justicia social - 15/11/26",
+      "date": "Sun, 15 Nov 2026 16:00:40 GMT",
+      "audio": "https://ztnr.rtve.es/ztnr/17313980.mp3",
+      "webpage": "https://www.rtve.es/play/audios/raiz-de-5/raiz-5-desigual-numeros-justicia-social/17313980/",
       "image": "https://img.rtve.es/imagenes/raiz-de-5/1621618405371.jpg",
-      "description": "Esta semana la palabra es “puente”. Hablamos de construcciones que unen orillas y de una pregunta que los matemáticos escuchamos a menudo: ¿por qué los puentes no se caen? Recorremos tres ideas fundamentales —equilibrio, geometría y movimiento— para descubrir cómo se reparten las cargas, por qué importa la forma de una viga y qué ocurre cuando el viento o nuestros pasos hacen vibrar una estructura. Del principio del arco invertido de Robert Hooke al salto de fe de Indiana Jones, buscamos las ecuaciones que ayudan a salvar obstáculos sin olvidar los materiales, los márgenes de seguridad y el mantenimiento. Porque cruzar un puente no debería ser un acto de fe, sino de confianza en un trabajo que se puede calcular, comprobar y revisar. Seguimos la siguiente semana, por inducción, n+1...\n\nEscuchar audio",
-      "duration": "00:24:07"
+      "description": "Esta semana la palabra es “desigual”. Partimos de Robert Recorde y la historia del signo igual para descubrir qué expresan los símbolos con los que comparamos cantidades. Hablamos de medias que esconden repartos muy distintos y de por qué ser diferente no significa valer menos. Nos acompaña Álvaro Rabadán para llevar la conversación hacia la desigualdad social, la sociología y la filosofía, con referencias a Aristóteles y al pensamiento del siglo XX. Nos preguntamos qué diferencias merece la pena conservar y cuáles se convierten en desventajas que deberíamos corregir. Porque las matemáticas pueden describir cómo se reparte algo, pero decidir qué reparto es justo requiere también hablar de nuestros valores.\nSeguimos la siguiente semana, por inducción, n+1...\n\nEscuchar audio",
+      "duration": "00:23:20"
     }
   },
   {
@@ -38,13 +38,13 @@
     "rss": "http://api.rtve.es/api/programas/27190/audios.rss",
     "color": "#F5F5F5",
     "lastEpisode": {
-      "title": "La Libélula - La Vuelta Al Mundo En Ochenta Juegos (Marcus du Sautoy, editorial Acantilado) - 26/11/14",
-      "date": "Sat, 14 Nov 2026 16:00:40 GMT",
-      "audio": "https://ztnr.rtve.es/ztnr/17312585.mp3",
-      "webpage": "https://www.rtve.es/play/audios/la-libelula/libelula-vuelta-mundo-ochenta-juegos-marcus-du-sautoy-editorial-acantilado-26-11-14/17312585/",
+      "title": "La Libélula - Espejodido - 26/11/15",
+      "date": "Sun, 15 Nov 2026 16:00:40 GMT",
+      "audio": "https://ztnr.rtve.es/ztnr/17312597.mp3",
+      "webpage": "https://www.rtve.es/play/audios/la-libelula/libelula-espejodido-26-11-15/17312597/",
       "image": "https://img.rtve.es/imagenes/la-libelula/1623319833673.jpg",
-      "description": "¿Acaso juega nuestra mascota? A veces da esa impresión cuando culebrea zumbando entre las cañas con alguna congénere. O mientras se entrega a la caza, ese lance a vida o muerte en el que podría ser medallista olímpica… El caso es que, si ella no lo hace, sí que lo permite e incluso alienta entre quienes integramos la dotación de este refugio. De hecho, Pitito y Malotto se traen una partida entre manos en el Salón de Lectura. Allí, sobre la mesa, han dejado «La vuelta al mundo en ochenta juegos», un libro de Marcus du Sautoy, publicado por Acantilado, en el que el autor recorre culturas y continentes moviendo fichas, repartiendo cartas y poniendo a prueba nuestra manera de pensar. Nuestros dos compinches nos contarán qué han encontrado en este ensayo y nos acercarán algunos de sus pasajes entre otros textos y poemas de Araceli Esteves y María Eloy-García, que podréis escuchar en las pujantes voces de esta misma poeta y en las de Juan Suárez. Además, en su papel de pinchadiscos residente, #DjπTito ilustrará #estahoradeevasión con canciones y composiciones de Ual·la!, The Offspring en versión de Richard Cheese, 4Hero con Talita Long y Larry Mizell, Alan Parsons, Lisa Gerrard y Pieter Bourke.\n\nAparte de las músicas que ambientan los textos, estos son los temas que sonarán en este #VueloSinMotor:\n\n¡Play! – Ual·la! – Play\nCome Out and Play – Richard Cheese – Lounge Against the Machine\nPlay with the Changes – 4Hero con Talita Long y Larry Mizell – Play with the Changes\nWe Play the Game – Alan Parsons – A Valid Path\nThe Human Game – Lisa Gerrard y Pieter Bourke – Duality\n\n******\n\nRecuerda que tienes #podcast del programa y #ficciones sueltas en rtve.es/lalibelula. \n\nTambién hay #Audiolibros en #Litercast y #videocreaciones en torno a la #Literatura en Palabra Voyeur\n\nY los versos que viajan entre bits te esperan en el Metaverso de Radio3 extra. ¡Arrímate!\n\nEscuchar audio",
-      "duration": "00:59:54"
+      "description": "En sus revoloteos sobre la superficie espejeante de la charca, #LaLiBéLuLa se ha quedado un poco pillada observando cómo, en esta ocasión, el agua no devolvía su imagen tal cual… ella movía las alas y el reflejo tardaba un poquito en obedecer… algo inquietante que casi ha provocado un accidente de vuelo. Por suerte nosotros estábamos al quite y le hemos preparado un #VueloSinMotor frente a un azogue agrietado. Un “espejodido”. Sí, sí, «Espejodido»: puede estar roto el espejo, tener malas intenciones o quizás nosotros no estemos de humor para vernos. Lo descubriremos en diferentes textos y poemas de Víctor Vegas, Elizabeth Smart, Alejandro Roemmers, Menchu Gutiérrez y Andrea López Montero que podréis escuchar en la voz de esta misma poeta y en las de Berta Tapia, el voyeur Juan Megías y Juan Suárez. Sin miedo a romper el cristal, #DjπTito pinchará canciones de Pascal Gaigne, Sandra Geler, Matt Jah, Weyes Blood, Angel Olsen, Lyra Pramuk, Maud the moth, Dark Sanctuary, Agnes Obel y Suuns.\n\nAparte de las músicas que ambientan los textos, estos son los temas que sonarán en este #VueloSinMotor:\n\nUn espejo en el cielo – Pascal Gaigne\nLa familia de los espejos rotos – Sandra Geler\nEspejos en el Agua – Matt Jah\nMirror Forever – Weyes Blood\nAll Mirrors – Angel Olsen\nMirror – Lyra Pramuk\nThe Mirror Door – Maud the moth\nL’Envers du miroir – Dark Sanctuary\nSmoke & Mirrors – Agnes Obel\nMirror Mirror – Suuns)\n\n******\n\nRecuerda que tienes #podcast del programa y #ficciones sueltas en rtve.es/lalibelula. \n\nTambién hay #Audiolibros en #Litercast y #videocreaciones en torno a la #Literatura en Palabra Voyeur\n\nY los versos que viajan entre bits te esperan en el Metaverso de Radio3 extra. ¡Arrímate!\n\nEscuchar audio",
+      "duration": "01:01:12"
     }
   },
   {
@@ -158,12 +158,12 @@
     "name": "LA ESTACIÓN AZUL",
     "rss": "http://www.rtve.es/api/programas/2008/audios.rss",
     "lastEpisode": {
-      "title": "La estación azul - Semiótica nuclear, con Ben Clark - 14/11/26",
+      "title": "La estación azul - 'Semiótica nuclear', con Ben Clark - 14/11/26",
       "date": "Sat, 14 Nov 2026 04:05:00 GMT",
       "audio": "https://ztnr.rtve.es/ztnr/17313574.mp3",
       "webpage": "https://www.rtve.es/play/audios/la-estacion-azul/semiotica-nuclear-ben-clark-14-11-26/17313574/",
       "image": "https://img.rtve.es/imagenes/la-estacion-azul/01740484374398.jpg",
-      "description": "El poeta ibicenco Ben Clark nos presenta Semiótica nuclear (Ed. Visor), su nuevo libro, cuyo título hace referencia a la disciplina que se ocupa de pensar cómo advertir a los habitantes del futuro de dónde hemos enterrado nuestros residuos nucleares cuando quizás los idiomas que ahora hablamos ya se hayan extinguido. Un asunto apasionante que invita a pensar en el diálogo entre civilizaciones, la labor fundamental del traductor y el poder del símbolo.\nLuego, Javier Lostalé abre su ventanita poética a la colombiana Adriana Hoyos, de quien lee unos versos de Esa que canta hacia dentro (Ed. Huerga y Fierro), su poemario más reciente, donde recurre al anagrama, la polisemia y el palíndromo para volverse hacia el interior.\nAdemás, escuchamos las recomendaciones de Cristina, cofundadora y librera de La puerta de Tannhäuser, una librería situada en Plasencia, Cáceres, que se ha llevado todos los premios habidos y por haber por su labor de promoción de la lectura, su apoyo a las editoriales independientes y su apuesta por la continuidad de los libros más allá de su lanzamiento. Los títulos que nos sugiere son: Isabelle por la tarde (Ed. Arpa), de Douglas Kennedy, Nada se opone a la noche (Ed. Anagrama), de Delphine de Vigan y La tienda de los deseos (Ed. Neko Books), de Hiyoko Kurisu.\nTambién se deja caer por el estudio Sergio C. Fanjul, que esta vez pone sobre la mesa Europeana. Una breve historia del siglo XX (Ed. Periférica), título del escritor checo Patrik Ouředník que se publicó originalmente en 2001 y que, además de tener un planteamiento muy curioso, suena más vigente que nunca por cómo cuestiona la idea de modernización. \nTerminamos Desmontando el poema junto a Mariano Peyrou, que hoy dedica su sección a Un poema no escrito (Ed. Ya lo dijo Casimiro Parker), peculiarísima obra de W. H. Auden (¿es poema?, ¿es ensayo?, ¿o las dos cosas, mi capitán?) que indaga en la relación entre la poesía y la verdad.\n\nEscuchar audio",
+      "description": "El poeta ibicenco Ben Clark nos presenta Semiótica nuclear (Ed. Visor), su nuevo libro, cuyo título hace referencia a la disciplina que se ocupa de pensar cómo advertir a los habitantes del futuro de dónde hemos enterrado nuestros residuos nucleares cuando quizás los idiomas que ahora hablamos ya se hayan extinguido. Un asunto apasionante que invita a pensar en el diálogo entre civilizaciones, la labor fundamental del traductor y el poder del símbolo.\nLuego, Javier Lostalé abre su ventanita poética a la colombiana Adriana Hoyos, de quien lee unos versos de Esa que canta hacia dentro (Ed. Huerga y Fierro), su poemario más reciente, donde recurre al anagrama, la polisemia y el palíndromo para volverse hacia el interior.\nAdemás, escuchamos las recomendaciones de Cristina, cofundadora y librera de La puerta de Tannhäuser, una librería situada en Plasencia, Cáceres, que se ha llevado todos los premios habidos y por haber por su labor de promoción de la lectura, su apoyo a las editoriales independientes y su apuesta por la continuidad de los libros más allá de su lanzamiento. Los títulos que nos sugiere son: Isabelle por la tarde (Ed. Arpa), de Douglas Kennedy, Nada se opone a la noche (Ed. Anagrama), de Delphine de Vigan y La tienda de los deseos (Ed. Neko Books), de Hiyoko Kurisu.\nTambién se deja caer por el estudio Sergio C. Fanjul, que esta vez pone sobre la mesa Europeana. Una breve historia del siglo XX (Ed. Periférica), título del escritor checo Patrik Ouředník que se publicó originalmente en 2001 y que, además de tener un planteamiento muy curioso, suena más vigente que nunca por cómo cuestiona la idea de modernización.\nTerminamos Desmontando el poema junto a Mariano Peyrou, que hoy dedica su sección a Un poema no escrito (Ed. Ya lo dijo Casimiro Parker), peculiarísima obra de W. H. Auden (¿es poema?, ¿es ensayo?, ¿o las dos cosas, mi capitán?) que indaga en la relación entre la poesía y la verdad.\n\nEscuchar audio",
       "duration": "00:56:17"
     }
   },
@@ -247,12 +247,12 @@
     "name": "DE PELÍCULA",
     "rss": "http://api.rtve.es/api/programas/1921/audios.rss",
     "lastEpisode": {
-      "title": "De película - Cine de autor, memoria y vanguardia en De Película - 14/11/26",
+      "title": "De película - Cine de autor, memoria y vanguardia - 14/11/26",
       "date": "Fri, 13 Nov 2026 23:05:00 GMT",
       "audio": "https://ztnr.rtve.es/ztnr/17313876.mp3",
       "webpage": "https://www.rtve.es/play/audios/de-pelicula-rne/cine-autor-memoria-vanguardia-pelicula-14-11-26/17313876/",
       "image": "https://img.rtve.es/imagenes/de-pelicula-rne/01725440921180.jpg",
-      "description": "La cartelera y De película llegan con propuestas cargadas de personalidad, arrancamos con una joya, el primer largometraje de animación español reconocido con el prestigioso Cristal de Annecy, La violinista, drama romántico, ambientada en la Segunda Guerra Mundial. Una maravilla visual de la que hablamos con uno de sus directores, Raúl García e Isabel Latorre Sáez que junto a Ricky Ho componen la banda sonora. No dejamos el cine internacional, McDonagh la ha definido como su película más política, una comedia negra de espionaje ambientada poco antes del golpe de estado chileno de 1973, su título Wild Horse Nine, una cinta que va a dar mucho que hablar. Nos vamos a Argentina y lo hacemos con El tren Fluvial de Lorenzo Ferro y Lucas Vignale, una especie de Road movie infantil con toques fantásticos que llega a nuestro país como homenaje póstumo a Lucas Vignale, el joven director nos dejaba el pasado mes de junio.\nEn cuanto al cine nacional destacamos dos títulos, El niño de Mariano Barroso, que pasa por nuestros micrófonos para hablarnos de este drama, adaptación de la novela homónima de Fernado Aranburu e Inspirada libremente en la tragedia real de la explosión del colegio de Ortuella en 1980, el otro título Jaleos, la revolución audiovisual del flamenco que firma Isaki Lacuesta.\nTodo esto además del resto de la cartelera, las mejores series con Pedro Calvo y nuestro particular homenaje al director Vicente Aranda.\n\nEscuchar audio",
+      "description": "La cartelera y De película llegan con propuestas cargadas de personalidad. Arrancamos con una joya, el primer largometraje de animación español reconocido con el prestigioso Cristal de Annecy, La violinista, drama romántico ambientado en la Segunda Guerra Mundial. Una maravilla visual de la que hablamos con uno de sus directores, Raúl García e Isabel Latorre Sáez que, junto a Ricky Ho, componen la banda sonora.\nNo dejamos el cine internacional. Martin McDonagh la ha definido como su película más política, una comedia negra de espionaje ambientada poco antes del golpe de estado chileno de 1973. Su título, Wild horse nine, una cinta que va a dar mucho que hablar.\nNos vamos a Argentina y lo hacemos con El tren fluvial de Lorenzo Ferro y Lucas Vignale, una especie de road movie infantil con toques fantásticos que llega a nuestro país como homenaje póstumo a Lucas Vignale, el joven director nos dejaba el pasado mes de junio.\nEn cuanto al cine nacional destacamos dos títulos: El niño de Mariano Barroso, que pasa por nuestros micrófonos para hablarnos de este drama, adaptación de la novela homónima de Fernado Aranburu e inspirada libremente en la tragedia real de la explosión del colegio de Ortuella en 1980, y Jaleos, la revolución audiovisual del flamenco que firma Isaki Lacuesta.\nTodo esto además del resto de la cartelera, las mejores series con Pedro Calvo y nuestro particular homenaje al director Vicente Aranda.\n\nEscuchar audio",
       "duration": "02:06:45"
     }
   },
